@@ -1,0 +1,64 @@
+---
+id: creer-facture-revenus
+title: Créer une facture de revenus
+---
+
+import Image from '@theme/IdealImage';
+import steps from '../../static/img/bases/creer-facture-revenus.png';
+import success from '../../static/img/bases/creer-facture-revenus-succes.png';
+
+Pour créer une facture de revenus, il faut au minimum inscrire le nom de votre client,
+entrer un montant et le code taxe applicable (si vous devez facturer les taxes).
+Ensuite, il faut choisir la bonne catégorie financière.
+Par exemple, "Services" ou "Ventes".
+Finalement, cliquez sur le bouton imprimer ou enregistrer la facture.
+
+<Image img={steps}/>
+<br/>
+
+## 1. Écrire le nom de votre client
+La première étape est d'indiquer le nom de votre client.
+Finance D, détecte automatiquement si un nom existe déjà ou non.
+S'il n'existe pas, il sera créer en sauvegardant la facture.
+
+Vous n'avez pas besoin d'ajouter plus d'information à propos d'un nouveau client.
+Il sera possible d'ajouter des détails quand cela vous semblera utile en cliquant sur le logo
+en forme de personnage.
+
+## 2. Inscrire le montant à facturer
+Deuxièmement, il faudra inscrire le montant à charger dans la colonne "MONTANT".
+
+Notez que nous n'avons pas défini le numéro ni la date de facture,
+car Finance D utilise votre prochain numéro et la date d'aujourd'hui par défaut.
+Vous pouvez changer l'un et l'autre si nécessaire.
+
+
+## 3. Sélectionner la taxe applicable
+Si vous devez facturer les taxes, il suffit de choisir le code taxe qui s'applique à votre situation.
+Par exemple, le code taxe "QC" calculera la TPS/TVQ selon le taux en vigueur au Québec.
+
+
+## 4. Sélectionner la catégorie financière
+La catégorie financière est le compte qui sera visible dans votre état des résultats.
+Si vous placez le montant dans la catégorie "Services", le montant sera reporté à ce compte.
+Dans les termes comptables, il s'agit du compte de votre plan comptable.
+
+
+## 5. Imprimer ou enregistrer la facture
+Lorsque la facture est complète, cliquez sur le bouton
+"IMPRIMER" pour l'enregistrer et obtenir un fichier PDF
+ou cliquez sur le bouton "ENREGISTRER LA FACTURE" pour la sauvegarder sans imprimer.
+
+<br/>
+<br/>
+<hr/>
+
+## Terminé
+Quand vous avez enregistré la facture, l'interface du logiciel affichera un message de succès.
+Puisqu'elle est sauvegardée, cette facture sera maintenant visible
+dans la fenêtre du logiciel intitulée "Mes factures" où toutes vos factures sont conservées.
+
+<Image img={success}/>
+
+<br/>
+<br/>

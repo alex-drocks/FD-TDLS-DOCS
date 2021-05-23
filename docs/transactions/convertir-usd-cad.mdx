@@ -1,0 +1,48 @@
+---
+id: convertir-usd-cad
+title: Convertir $ USD en $ CAD
+---
+
+import LazyGif from "../../src/Components/LazyGif";
+
+Dans un scénario où vous devez convertir un montant en dollars Américains (USD)
+vers les dollars Canadiens (CAD), il y a une fonction pratique qui peut convertir les USD pour vous
+selon le taux estimé par www.exchange-rates.org à la date de facturation que vous avez choisie.
+
+
+## Comment convertir un montant USD vers CAD ?
+
+1. Entrez le montant original en $ USD sur la ligne de transaction.
+
+2. Ouvrez le menu d'actions supplémentaire de la ligne de transaction
+(bouton droit souris, ou cliquez sur le numéro de ligne à gauche).
+
+<LazyGif
+  relativePath="transactions/transactions-convert-usd-to-cad.gif"
+  alt="Exemple pour convertir un montant en USD vers la valeur en CAD"
+  height={673}
+/>
+
+
+## Quand utiliser cette fonction ?
+Quand vous ne connaissez pas la valeur en $ Canadiens et que vous n'avez pas accès à cette information.
+Dans ce cas, il faudrait calculer manuellement la valeur en $ CAD à partir d'internet.
+C'est dans un contexte similaire que cette fonction va vous faire gagner beaucoup de temps.
+
+Toutefois, quand vous savez la vraie réponse de la valeur en $ CAD, préférez toujours le montant officiel.
+Cette fonction est un back-up pour les fois où nous traitons le passé sans avoir accès à l'information.
+
+
+## Quelle est la source du taux de conversion ?
+Le taux utilisé est obtenu à partir du site internet exchange-rates.
+Ils offrent la possibilité d'obtenir le taux de conversion
+historique en se basant sur une date précise dans le passé.
+
+Finance D utilise la date de facturation en faisant une requête avec cette adresse :
+https://www.exchange-rates.org/Rate/USD/CAD/2021-05-07
+
+Ensuite, le montant USD de la ligne de transaction est multiplié par le taux obtenu.
+Par exemple : 100 USD$ * 1.225 = 122.50 CAD$
+
+<br/>
+<br/>

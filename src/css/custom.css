@@ -1,0 +1,118 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-size-base: 120%;
+}
+
+html[data-theme="light"] {
+  --ifm-color-primary: #0055df;
+  --ifm-color-primary-dark: #004bc4;
+  --ifm-color-primary-darker: #0044b2;
+  --ifm-color-primary-darkest: #002c74;
+  --ifm-color-primary-light: #005ffa;
+  --ifm-color-primary-lighter: #0d69ff;
+  --ifm-color-primary-lightest: #4b90ff;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: #50a6ff;
+  --ifm-color-primary-dark: #2f95ff;
+  --ifm-color-primary-darker: #1e8cff;
+  --ifm-color-primary-darkest: #0073eb;
+  --ifm-color-primary-light: #72b7ff;
+  --ifm-color-primary-lighter: #82c0ff;
+  --ifm-color-primary-lightest: #b4d9ff;
+}
+
+.hero--primary .hero__subtitle a:first-of-type {
+  color: #fff;
+  text-decoration: underline #1e8cff;
+}
+
+.hero--primary .hero__subtitle a:first-of-type:hover {
+  color: #fff;
+  text-decoration: underline #fff;
+}
+
+.hero--primary .button {
+  box-shadow: 0 3px 8px var(--ifm-color-primary-darkest);
+}
+
+.footer__logo {
+  max-width: 48px;
+}
+
+a[class*="footerLogoLink"] {
+  opacity: 1;
+}
+
+.no-word-break {
+  word-wrap: normal;
+}
+
+.markdown div > img,
+.markdown div > svg {
+  box-shadow: 0 0 6px 1px #dedede;
+}
+
+.figure {
+  margin: 0;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.linkButton {
+  padding: 0.85em 1.1em;
+  box-shadow: 1px 2px 4px #e5e5e5;
+}
+
+.linkButton:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 420px) {
+  :root {
+    --ifm-font-size-base: 115%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    --ifm-font-size-base: 110%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  :root {
+    --ifm-font-size-base: 105%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  :root {
+    --ifm-font-size-base: 95%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  :root {
+    --ifm-font-size-base: 90%;
+  }
+}
+
+@media screen and (max-width: 284px) {
+  :root {
+    --ifm-font-size-base: 84%;
+  }
+}

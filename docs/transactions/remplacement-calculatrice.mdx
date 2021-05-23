@@ -1,0 +1,87 @@
+---
+id: remplacement-calculatrice
+title: Remplacement d'une calculatrice
+---
+
+import LazyGif from "../../src/Components/LazyGif";
+
+Les lignes de transactions d'une facture fonctionnent comme une calculatrice simplifiée.
+
+Vous n'aurez donc plus besoin de sortir votre calculatrice pour la majorité des calculs
+que vous avez besoin d'effectuer lors de la création de vos factures.
+
+
+## Calcul avec additions et soustractions
+
+Entrez le 1er montant sur la ligne #1.
+
+Ensuite, appuyez sur la touche <kbd>+</kbd> de votre clavier pour ajouter une 2e ligne de transaction.
+Puis, entrez le 2e montant sur la ligne #2 pour additionner.
+
+Ensuite, appuyez sur la touche <kbd>+</kbd> de votre clavier pour ajouter une 3e ligne de transaction.
+Puis, entrez un 3e montant sur la ligne #3. Cette fois un montant négatif pour soustraire.
+
+<LazyGif
+  relativePath="transactions/additions-soustractions.gif"
+  alt="Exemple d'addition et soustraction"
+  height={381}
+/>
+
+
+## Calcul avec multiplications
+Pour multiplier, il suffit d'utiliser la colonne de quantité ("QTÉ").
+
+Disons que vous voulez facturer 40 heures à 35 $ / heure. Votre premier réflexe
+sera probablement de sortir votre calculatrice pour faire le calcul avant d'écrire
+la réponse finale dans la transaction Finance D.
+Or, voici comment procéder dans le logiciel afin de pas avoir besoin d'une calculatrice externe :
+
+Entrez le montant de 35 $ à la ligne #1.
+Ensuite appuyez sur la touche <kbd>*</kbd> de votre clavier, ou allez à la colonne de QTÉ.
+Puis, entrez la quantité 40.
+
+<LazyGif
+  relativePath="transactions/multiplications.gif"
+  alt="Exemple de multiplication"
+  height={380}
+/>
+
+## Calcul avec division ou pourcentage
+Pour simuler une division ou un pourcentage sur une ligne de transaction,
+il suffit d'inscrire un nombre entre 0 et 1 dans la colonne de quantité ("QTÉ").
+Ainsi, vous divisez le montant de la ligne.
+
+Dans l'exemple ci-dessous, 1 000$ est divisé à 50% (la moitié) de sa valeur totale
+puisque la quantité est à 0.5.
+De même, pour obtenir la valeur de 80%, il faudrait écrire 0.8 à la quantité.
+
+<LazyGif
+  relativePath="transactions/transactions-division-pourcentage.gif"
+  alt="Exemple de division et pourcentage"
+  height={377}
+/>
+
+
+## Résumé avec exemple de calcul plus complexe
+Comme nous avons démontré, les transactions peuvent servir de calculatrice de base.
+Pour cette raison, il ne sera pas nécessaire d'utiliser une calculatrice pour la majorité
+des factures que vous allez créer dans Finance D.
+
+Voici un dernier exemple où la plupart de ces concepts sont appliqués :
+<LazyGif
+  relativePath="transactions/transaction-complexe.gif"
+  alt="Exemple de calcul plus complexe"
+  height={379}
+/>
+
+<br/>
+<br/>
+<hr/>
+
+En résumé, les lignes de transactions dans Finance D sont très flexibles
+et vous permettent de faire des calculs sans recourir à une calculatrice externe.
+
+Soyez créatif et n'oubliez pas d'utiliser les raccourcis clavier :)
+
+<br/>
+<br/>

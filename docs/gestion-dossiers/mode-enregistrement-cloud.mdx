@@ -1,0 +1,199 @@
+---
+id: mode-enregistrement-cloud
+title: Mode d'enregistrement dans un cloud personnel
+---
+
+import VideoLink from "../../src/Components/VideoLink";
+import LazyGif from "../../src/Components/LazyGif";
+
+Depuis la version 1.0.1, il est possible de changer le dossier interne
+que le logiciel utilise pour stocker ses données.
+Avec cette possibilité, qui est 100% optionnelle, vous pouvez choisir d'utiliser votre fournisseur de cloud personnel
+afin de partager plus facilement vos dossiers de tenue de livres de Finance&nbsp;D.
+
+<VideoLink
+  title="Activer le mode d'enregistrement dans un cloud personnel"
+  duration="10:12"
+  url="https://youtu.be/p39y1UDnnms"
+/>
+
+
+## De quoi s'agit-il exactement&nbsp;?
+Le mode d'enregistrement dans un cloud personnel est en réalité un simple changement du chemin d'accès
+aux fichiers que le logiciel lis et enregistre à l'interne.
+Donc, en d'autres mots, c'est une <strong>modification du dossier d'enregistrement</strong>
+principal où Finance&nbsp;D sauvegarde vos dossiers de tenue de livres.
+
+Puisque Finance&nbsp;D est conçu pour faire abstraction aux choses plus complexes des ordinateurs,
+le logiciel utilise un dossier local par défaut sans que vous ayez eu besoin
+de choisir son endroit dans votre ordinateur. C'est un avantage qui aide à simplifier
+la prise en main du logiciel pour les utilisateurs qui sont moins à l'aise avec les ordis.
+
+Toutefois, si vous maîtrisez bien les ordinateurs, vous savez qu'il est possible de se servir
+d'un cloud personnel tels que <strong>OneDrive, Google Drive ou Dropbox</strong>
+pour partager des dossiers d'un ordinateur à un autre. Donc, comment faire pour utiliser un cloud si Finance&nbsp;D
+enregistre dans un dossier local sans que nous ayons le choix de ce dossier d'enregistrement&nbsp;?
+
+Ce mode d'enregistrement est la solution qui permet de choisiroptionnellement d'utiliser un dossier
+cloud personnel <strong>pour partager vos dossiers de tenue de livres de Finance&nbsp;D</strong>
+avec d'autres ordinateurs.
+
+
+## Considérations importantes
+:::danger
+Bien que ce mode d'enregistrement soit très utile dans certain cas,
+il peut aussi être néfaste si vous n'êtes pas au courant des informations ci-dessous.
+:::
+
+À l'origine, le logiciel Finance&nbsp;D n'était pas conçu pour partager un même dossier
+en temps réel pour plusieurs personnes connectées.
+
+De ce fait, <strong>il n'y a pas de synchronisation en temps réel</strong> quand plusieurs personnes
+sont connectées dans un même dossier qui se trouve dans votre cloud personnel.
+
+Le logiciel va effectivement lire et enregistrer dans votre cloud, et toute personne qui ouvrira
+le dossier Finance&nbsp;D va initialement voir le contenu à jour qui provient du cloud (ce qui est excellent).
+Mais, si plus d'une personne travaillent sur le même dossier chacun à partir de leur
+ordinateur, <strong>l'interface du logiciel chez chaque personne ne suivra pas
+automatiquement les changements que l'autre fait</strong> sur son ordinateur.
+
+La synchronisation automatique se produit quand le logiciel ouvre le dossier de tenue de livres.
+Donc, au moment où vous ouvrez / redémarrez le logiciel pour travailler dans un dossier de tenue de livres.
+
+
+### Quand utiliser l'enregistrement cloud&nbsp;?
+Quand vous n'avez pas l'intention d'être plusieurs utilisateurs à travailler
+en même temps sur le même dossiers de tenue de livres, cette fonction sera idéale pour vous.
+
+#### Exemple #1 :
+Je suis le seul utilisateur du logiciel, mais je veux travailler sur mon dossier
+de tenue de livres sur mon ordinateur de bureau et sur mon laptop.
+
+#### Exemple #2 :
+Nous sommes plusieurs personnes dans l'entreprise à travailler sur le même dossier,
+mais nous ne serons pas connectés en même temps dans le dossier de tenue de livres.
+
+#### Exemple #3 :
+Nous sommes plusieurs à travailler en même temps dans le même dossier,
+mais nous sommes tous conscients que le logiciel ne synchronise pas en temps réel.
+Donc aucun de nous ne fera de modification contradictoire.
+(ex: Personne ne va créer une facture au nom d'un client qu'une autre personne aurait supprimé).
+
+
+### Quand NE PAS utiliser l'enregistrement cloud&nbsp;?
+Pour les raisons mentionnées ci-haut,
+il est déconseillé que plusieurs personnes travaillent en même temps
+dans un dossier de tenue de livres commun à partir de leur cloud personnel
+pour éviter des erreurs de synchronisation.
+
+Donc, quand vous avez l'intention
+d'être <i><strong>plusieurs utilisateurs à
+travailler en même temps sur le même dossier</strong></i> de tenue de livres,
+cette fonction pourrait vous causer des problèmes.
+
+#### Exemple #1 :
+Simon est sur son ordinateur à Saint-Hyacinthe
+et Marie est sur son ordinateur à Montréal. Si les deux personnes
+sont sur le même dossier de tenue de livres, les deux ne verront pas
+les changements de l'autre avant de réouvrir le dossier.
+
+#### Exemple #2 :
+Pierre-Luc, Maxime et Christine sont associés dans la même entreprise.
+Ils veulent tous utiliser Finance&nbsp;D à partir de leur propre ordi. Quand chacun
+ouvrira le dossier partagé, ils seront connectés en même temps sur le même dossier.
+Ce qui risque d'arriver est que Pierre-Luc modifie une facture sans que Christine
+voit le changement se produire en temps réel. La prochaine fois que Christine va ouvrir
+le dossier, elle va voir le changement que Pierre-Luc avait fait et ainsi de suite.
+
+
+## Activer le mode d'enregistrement cloud
+
+### 1. Créez et exportez une copie de sauvegarde
+Avant d'activer le mode d'enregistrement cloud du logiciel,
+ouvrez chacun des dossiers de tenue de livres existants
+que vous voulez transférer pour créer une [copie de sauvegarde](/docs/gestion-dossiers/copies-de-sauvegarde)
+et l'exporter dans un endroit connu de votre ordinateur.
+
+<LazyGif
+  height={713}
+  alt={"Démonstration de créer et exporter une copie de sauvegarde"}
+  relativePath={"gestion-dossiers/v101_copie-sauvegarde-transfert-cloud.gif"}
+/>
+
+
+### 2. Choisir le dossier cloud personnel à utiliser
+Pour activer le mode d'enregistrement cloud sur votre ordinateur,
+redémarrez d'abord le logiciel.
+Ensuite, à la fenêtre de connexion, cliquez sur l'icône de nuage en bas à gauche
+afin de choisir le dossier où vous voulez que le logiciel
+enregistre ses données.
+
+<LazyGif
+  height={678}
+  alt={"Démonstration de l'activation du mode d'enregistrement dans un dossier cloud personnel"}
+  relativePath={"gestion-dossiers/v101_choisir-dossier-cloud.gif"}
+/>
+
+
+### 3. Importez une copie de sauvegarde dans le cloud
+Quand le mode d'enregistrement dans votre cloud personnel est actif,
+cliquez sur le bouton "Importer un dossier existant" pour ajouter
+une copie de ce dossier dans le nouveau dossier d'enregistrement cloud.
+
+<LazyGif
+  height={678}
+  alt={"Démonstration de l'importation d'un dossier Finance D"}
+  relativePath={"gestion-dossiers/importer-copie-sauvegarde.gif"}
+/>
+
+
+## Partager un dossier existant à un autre ordinateur
+Quand vous avez [activé le mode d'enregistrement cloud](#activer-le-mode-denregistrement-cloud)
+sur votre ordinateur,
+Finance&nbsp;D va lire et enregistrer dans ce dossier partagé qui se trouve dans votre cloud personnel.
+Donc, pour rendre le dossier accessible à un autre ordinateur, il faudra d'abord
+activer le mode cloud sur cet ordi également.
+Ensuite, importer la [copie de sauvegarde](/docs/gestion-dossiers/copies-de-sauvegarde).
+
+1. Installez et activez le logiciel Finance&nbsp;D sur l'autre ordinateur si ce n'est pas déjà fait.
+2. Activez le mode cloud en pointant vers le même dossier cloud partagé que l'ordinateur d'origine.
+3. Importez la [copie de sauvegarde](/docs/gestion-dossiers/copies-de-sauvegarde) du dossier de tenue de livres pour y avoir accès.
+4. Terminé. Vous pouvez maintenant ouvrir le dossier et vos changements seront visibles sur l'autre ordinateur
+quand le dossier sera ré-ouvert.
+
+:::note
+Quand ces étapes sont faites, il n'y a plus rien à faire pour les prochaines fois.
+Ce qui est long est seulement l'étape initiale d'activation et ça en vaut l'effort.
+Le mode cloud restera actif jusqu'à ce que vous décidiez de l'enlever.
+:::
+
+
+## Désactiver le mode d'enregistrement cloud
+Voici comment désactiver le mode d'enregistrement dans votre cloud personnel&nbsp;:
+
+1. Cliquez sur l'icône de nuage en bas à gauche de la fenêtre de connexion Finance&nbsp;D.
+2. Cliquez sur "Désactiver le mode cloud".
+3. Confirmez en cliquant sur "Oui".
+
+<LazyGif
+  height={678}
+  alt={"Démonstration de la désactivation du mode d'enregistrement cloud"}
+  relativePath={"gestion-dossiers/desactiver-enregistrement-cloud.gif"}
+/>
+
+## Changer le dossier d'enregistrement cloud actif
+Voici comment changer le dossier actif du mode d'enregistrement dans votre cloud personnel&nbsp;:
+
+1. Cliquez sur l'icône de nuage en bas à gauche de la fenêtre de connexion Finance&nbsp;D.
+2. Cliquez sur "Modifier".
+3. Choisissez le nouvel endroit sur votre ordinateur.
+
+<LazyGif
+  height={678}
+  alt={"Démonstration de la modification du dossier d'enregistrement cloud"}
+  relativePath={"gestion-dossiers/modifier-dossier-enregistrement-cloud.gif"}
+/>
+
+
+<br/>
+<br/>

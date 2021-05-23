@@ -1,0 +1,110 @@
+---
+id: pourcentage-deductible-depenses
+title: Pourcentage de déduction alloué pour les catégories de dépenses
+---
+
+import Image from '@theme/IdealImage';
+import LazyGif from "../../src/Components/LazyGif";
+
+Il est commun pour les travailleurs autonomes d'avoir besoin d'un pourcentage déductible autre que 100 %
+au niveau des dépenses de véhicule et de l'espace de bureau utilisé par l'entreprise.
+
+Pour cette raison, dans le logiciel Finance D,
+vos catégories de dépenses peuvent calculer automatiquement
+les valeurs selon le pourcentage alloué qui est propre à votre entreprise.
+Ce qui aura pour effet de calculer les vraies valeurs déductibles pour vos rapports financiers.
+Soit pour votre État des résultats ainsi que pour votre Sommaire de taxes.
+
+## Exemple
+
+Supposons que vos dépenses de véhicule sont déductibles à 40 %
+et que vos dépenses de bureau maison sont à 20 %...
+Dans ce cas, il faudra simplement aller modifier vos catégories et inscrire ces pourcentages auxquels vous avez droit.
+Ensuite, vos rapports financiers vont automatiquement correspondre avec le pourcentage que vous avez choisi.
+
+:::note
+Nous suggérons de faire un test en créant un nouveau dossier Finance D vide
+et une dépense de 100 $ à 60 % pour voir le résultat final dans vos rapports financiers.
+Ceci pourrait aider à comprendre le calcul.
+:::
+
+
+## Personnaliser le pourcentage alloué des catégories de dépenses
+1. Sélectionnez l'onglet "DÉPENSES" de la page principale du logiciel Finance D
+2. Déplacez votre souris par-dessus la colonne "CATÉGORIE FINANCIÈRE" de la table de transactions.
+3. Ensuite, cliquez sur l'icône de crayon rouge qui apparait pour ouvrir le gestionnaire de catégories de dépenses.
+4. Trouvez la catégorie en écrivant quelques lettres dans la case de recherche.
+5. Écrivez le nouveau pourcentage de la catégorie dans la colonne "% Alloué".
+6. Finalement, cliquez sur le bouton "Enregistrer" pour sauvegarder les changements.
+
+<LazyGif
+  relativePath="categories/categories-trouver-et-modifier-pourcentage.gif"
+  alt="Démo pour personnaliser le pourcentage alloué des catégories de revenus"
+  height={641}
+/>
+
+### Qu'arrivera-t-il quand je modifie un pourcentage ?
+Lorsque vous avez déterminé qu'une de vos catégories de dépenses
+doit être calculée selon un pourcentage de déduction autre que 100%,
+voici ce qui arrivera en prenant l'exemple de la catégorie "Entretien bureau (20 %)" :
+
+- Vos factures originales vont rester intactes et contiendront un nouveau
+nom de catégorie avec le pourcentage entre parenthèses.
+Par exemple : Entretien bureau → Entretien bureau (20 %).
+
+- Votre État des résultats va afficher le sous-total de cette catégorie financière
+calculé à 20% de la valeur qui est visible sur la facture originale.
+De même, la liste des transactions détaillées dans ce rapport va indiquer
+les montants nets déduits correctement selon le pourcentage.
+
+- Votre Sommaire de taxes (la fenêtre où vous voyez combien de taxes à payer au Gouvernement),
+va calculer la vraie valeur de TPS/TVQ selon le pourcentage de dépense alloué.
+De même, la liste des transactions détaillées dans ce rapport va indiquer
+les montants de taxes déduits correctement selon le pourcentage.
+
+L'image ci-dessous donne un autre exemple où une facture de 100$ taxes incluses pour de l'essence déductible à 40%
+apparait à sa valeur réduite dans l'État des résultats (86.98$ * 40% = 34.79$).
+
+<Image img={require("../../static/img/categories/categories-financieres-deduction-etat-resultats.png")}/>
+<br/>
+
+### Pourquoi est-ce que la facture originale reste intacte quand j'utilise les pourcentages ?
+C'est normal et voulu ainsi pour ces raisons :
+
+- Principalement parce qu'il est plus clair d'enregistrer vos factures selon les montants exacts qui sont visibles
+sur vos factures originales (comme une facture papier par exemple) pour des raisons de traçabilité.
+En effet, ce serait étrange d'avoir une facture qui indique 100 $ mais que la transaction dans Finance D
+indique un autre montant.
+
+- Aussi, il est facile de modifier le calcul de déduction à tout moment en changeant les pourcentages alloués
+de vos catégories.
+Donc, si vous passez de 20% à 30% par exemple, pas besoin de tout modifier vos 200 factures pour recalculer
+selon le nouveau taux.
+
+- Finalement, parce que l'État des résultats et le Sommaire de taxes peuvent facilement gérer
+le calcul des pourcentages alloués indépendamment des factures originales.
+
+
+## Considérations importantes
+:::danger
+Quand vous modifiez le pourcentage alloué d'une catégorie de dépenses à un taux autre que 100%,
+les calculs de votre État des résultats et Sommaire de taxes vont considérer le nouveau pourcentage
+alloué.
+Donc, si vous aviez déjà faits des calculs de pourcentages déductibles manuellement avant cette mise à
+jour, il est conseillé d'attendre au début de votre prochain trimestre avant d'activer le
+nouveau calcul automatique des pourcentages pour ne pas modifier vos chiffres précédents.
+Toutefois, notez que rien est perdu. Vous pouvez remettre les pourcentages de
+n'importe quelle catégorie de dépenses à 100%
+et le calcul redeviendra comme avant.
+:::
+
+:::note
+C'est une bonne habitude d'imprimer vos rapports financiers à chaque trimestre et de les conserver dans vos archives
+personnelles.
+Par exemple, à la fin d'un trimestre et quand vos factures sont à jour,
+imprimez l'État des résultats ainsi que le Sommaire de taxes
+et gardez la copie pour référence ultérieure.
+:::
+
+<br/>
+<br/>
