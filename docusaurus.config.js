@@ -1,32 +1,57 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  title: "Finance D - Documentation, aide et formations",
+  tagline: 'Maîtriser le logiciel: Finance D - Tenue de livres simplifiée',
+  url: 'https://docs.finance-d.com',
+  baseUrl: '/logiciel-tenue-de-livres-simplifiee/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Finance D', // Usually your GitHub org/user name.
+  projectName: 'fd-app-docs', // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: 'beta_mode', // Any value that will identify this message.
+      content:
+        'La documentation est en construction.',
+      textColor: '#666', // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
+    },
     navbar: {
-      title: 'My Site',
+      title: 'Finance D',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
+          to: '/docs',
+          activeBasePath: 'docs',
+          label: 'Documentation',
           position: 'left',
-          label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: "/videos",
+          label: "Vidéos",
+          position: "left"
+        },
+        {
+          to: '/blog',
+          label: 'Articles',
+          position: 'left'
+        },
+        {
+          to: '/updates',
+          label: 'Mises à jour',
+          position: 'left'
+        },
+        {
+          to: '/faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          href: 'https://finance-d.com',
+          label: 'finance-d.com',
           position: 'right',
         },
       ],
@@ -35,68 +60,120 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Accès rapide',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Prise en main',
+              to: '/docs/bases/prise-en-main-du-logiciel',
+            },
+            {
+              label: 'Mises à jour',
+              to: '/updates',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Plus',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Notre page Facebook',
+              href: 'https://www.facebook.com/Finance.D.Logiciels',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'FAQ',
+              to: '/faq',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Autres formations',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Démonstrations vidéos',
+              to: "/videos",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Articles',
+              to: 'blog',
+            },
+          ],
+        },
+        {
+          title: 'Finance D',
+          items: [
+            {
+              label: 'Présentation du logiciel',
+              href: 'https://finance-d.com',
+            },
+            {
+              label: 'À propos de nous',
+              href: 'https://finance-d.com/a-propos',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      logo: {
+        alt: 'Logo Finance D',
+        src: 'img/logo.png',
+        href: 'https://finance-d.com/',
+      },
+      copyright: `© ${new Date().getFullYear()} Finance D`,
+    },
+    gtag: {
+      trackingID: 'G-8N37CT6CMQ',
+      anonymizeIP: false,
+    },
+    algolia: {
+      appId: 'I9B5YVJPW1',
+      apiKey: '146d50f718ad77ef9f491999239a2d22',
+      indexName: 'FD-TDLS-DOCS',
     },
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
+        // Will be passed to @docusaurus/plugin-content-docs (false to disable)
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
+
+        // Will be passed to @docusaurus/plugin-content-blog (false to disable)
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          blogSidebarTitle: 'Articles récents',
+          blogTitle: 'Articles',
+          blogDescription: 'Lisez nos articles de formations spécialisées pour augmenter ' +
+            'votre productivité avec le logiciel Finance D - Tenue de livres simplifiée.',
         },
+
+        // Will be passed to @docusaurus/plugin-content-pages (false to disable)
+        pages: {},
+
+        // Will be passed to @docusaurus/theme-classic.
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          trailingSlash: true,
         },
       },
     ],
   ],
+  plugins: [
+    '@docusaurus/plugin-ideal-image',
+  ],
+  i18n: {
+    defaultLocale: 'fr',
+    locales: ['fr'],
+    localeConfigs: {
+      fr: {
+        label: 'Français',
+        direction: 'ltr',
+      },
+    },
+  },
 };
