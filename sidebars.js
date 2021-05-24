@@ -14,7 +14,8 @@ module.exports = {
       'bases/creer-facture-revenus',
       'bases/imprimer-facture-revenus',
       'bases/trouver-vos-factures',
-      'bases/supprimer-une-facture'
+      'bases/supprimer-une-facture',
+      'bases/creer-facture-depenses',
     ],
     "Navigation dans le logiciel" : [
       'navigation/mode-transaction-revenus-depenses',
