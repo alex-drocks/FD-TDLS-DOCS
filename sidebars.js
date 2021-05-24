@@ -17,7 +17,7 @@ module.exports = {
       'bases/supprimer-une-facture',
       'bases/creer-facture-depenses',
     ],
-    "Navigation dans le logiciel" : [
+    "Navigation dans le logiciel": [
       'navigation/mode-transaction-revenus-depenses',
       'navigation/fenetre-options-preferences-parametres',
       'navigation/fenetre-etat-des-resultats',
@@ -26,7 +26,8 @@ module.exports = {
       'navigation/fenetre-recherche-de-facture',
     ],
     "Astuces de productivité": [
-      "astuces/autocompletion"
+      "astuces/autocompletion",
+      "astuces/utiliser-le-clavier",
     ],
     "Transactions avancées": [
       'transactions/flexibilite-des-transactions',
