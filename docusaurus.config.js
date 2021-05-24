@@ -9,13 +9,13 @@ module.exports = {
   organizationName: 'Finance D', // Usually your GitHub org/user name.
   projectName: 'fd-app-docs', // Usually your repo name.
   themeConfig: {
-    announcementBar: {
-      id: 'beta_mode', // Any value that will identify this message.
-      content:
-        'La documentation est en construction.',
-      textColor: '#666', // Defaults to `#000`.
-      isCloseable: false, // Defaults to `true`.
-    },
+    // announcementBar: {
+    //   id: 'beta_mode', // Any value that will identify this message.
+    //   content:
+    //     'La documentation est en construction.',
+    //   textColor: '#666', // Defaults to `#000`.
+    //   isCloseable: false, // Defaults to `true`.
+    // },
     navbar: {
       title: 'Finance D',
       logo: {
@@ -127,6 +127,7 @@ module.exports = {
       appId: 'I9B5YVJPW1',
       apiKey: '146d50f718ad77ef9f491999239a2d22',
       indexName: 'FD-TDLS-DOCS',
+      // Optional: Algolia search parameters
     },
   },
   presets: [
