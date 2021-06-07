@@ -1,0 +1,40 @@
+---
+id: import-json
+title: Importer des enregistrements JSON
+---
+
+import LazyGif from "../../src/Components/LazyGif";
+
+Il est possible d'importer des enregistrements de Clients, Fournisseurs, Facture de revenus et Factures de dépenses
+dans un dossier Finance&nbsp;D.
+
+Voici comment importer un fichier d'enregistrements Finance&nbsp;D au format JSON&nbsp;:
+
+1. [Ouvrez d'abord le dossier](/docs/bases/ouvrir-dossier) dans lequel vous voulez importer des enregistrements.
+2. Ensuite, [ouvrez la fenêtre d'options](/docs/navigation/fenetre-options-preferences-parametres).
+3. Cliquez sur l'onglet "Mon dossier".
+4. Cliquez sur "Afficher la section avancée".
+5. Sélectionnez les types d'enregistrements que vous voulez importer à partir du fichier JSON.
+6. Cliquez sur le bouton "Importer un fichier d'enregistrements JSON".
+7. Sélectionnez le fichier sur votre disque dur et confirmez.
+
+<LazyGif
+  height={778}
+  alt={"Démonstration de comment importer des enregistrements JSON dans un dossier Finance D"}
+  relativePath={"gestion-dossiers/import-json.gif"}
+/>
+
+Si le fichier d'importation que vous avez choisi contenait
+des enregistrements Finance D qui sont valides,
+vous verrez un dialogue de confirmation qui affichera le nombre
+d'enregistrements qui ont été importés avec succès.
+
+:::note
+Si vous souhaitez générer des enregistrements Finance D valides par vous-mêmes,
+[consultez notre schema d'importation JSON](https://github.com/alex-drocks/finance-d-electron-app-json-schemas),
+ou exportez un fichier JSON à partir du logiciel Finance D pour voir un exemple.
+(Ce sujet avancé concerne surtout les développeurs).
+:::
+
+<br/>
+<br/>

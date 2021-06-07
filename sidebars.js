@@ -48,6 +48,7 @@ module.exports = {
       "gestion-dossiers/supprimer-dossier",
       "gestion-dossiers/partager-un-dossier",
       "gestion-dossiers/mode-enregistrement-cloud",
+      "gestion-dossiers/import-json"
     ]
   },
 };
