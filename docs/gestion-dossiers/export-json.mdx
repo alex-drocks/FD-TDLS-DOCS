@@ -1,0 +1,41 @@
+---
+id: export-json
+title: Exporter des enregistrements JSON
+---
+
+import LazyGif from "../../src/Components/LazyGif";
+
+Il est possible d'exporter des enregistrements de Clients, Fournisseurs, Facture de revenus et Factures de dépenses
+dans un dossier Finance&nbsp;D.
+
+Voici comment exporter un fichier d'enregistrements Finance&nbsp;D au format JSON&nbsp;:
+
+1. [Ouvrez d'abord le dossier](/docs/bases/ouvrir-dossier) dans lequel vous voulez exporter des enregistrements.
+2. Ensuite, [ouvrez la fenêtre d'options](/docs/navigation/fenetre-options-preferences-parametres).
+3. Cliquez sur l'onglet "Mon dossier".
+4. Cliquez sur "Afficher la section avancée".
+5. Sélectionnez les types d'enregistrements que vous voulez exporter dans le fichier JSON.
+6. Cliquez sur le bouton "Exporter les enregistrements sélectionnés dans un fichier JSON".
+7. Choisissez l'endroit et le nom du fichier qui sera enregistré sur votre disque dur et confirmez.
+
+<LazyGif
+  height={758}
+  alt={"Démonstration de comment exporter des enregistrements JSON dans le logiciel Finance D"}
+  relativePath={"gestion-dossiers/export-json.gif"}
+/>
+
+Si l'exportation a été un succès,
+vous verrez un dialogue de confirmation qui affichera le nombre
+d'enregistrements qui ont été exportés dans le fichier JSON
+ainsi que le chemin d'accès où celui-ci est enregistré
+dans votre disque dur.
+
+:::note
+Si vous souhaitez générer des enregistrements Finance D valides par vous-mêmes,
+[consultez notre schema d'importation JSON sur Github](https://github.com/alex-drocks/finance-d-electron-app-json-schemas),
+ou inspectez le fichier JSON dans un éditeur de code pour voir un exemple.
+(Ce sujet avancé concerne surtout les développeurs).
+:::
+
+<br/>
+<br/>
