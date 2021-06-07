@@ -49,7 +49,8 @@ module.exports = {
       "gestion-dossiers/partager-un-dossier",
       "gestion-dossiers/mode-enregistrement-cloud",
       "gestion-dossiers/import-json",
-      "gestion-dossiers/export-json"
+      "gestion-dossiers/export-json",
+      "gestion-dossiers/archiver-un-dossier"
     ]
   },
 };
