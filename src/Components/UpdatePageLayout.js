@@ -36,8 +36,7 @@ export default function UpdatePageLayout({version, children}) {
           <a href="mailto:admin@finance-d.com?subject=Logiciel Tenue de livres simplifiée" title="Écrivez-nous">
             <i>admin@finance-d.com</i>.
           </a>
-          &nbsp;Bien que Finance&nbsp;D soit un logiciel
-          100% gratuit, il nous fera plaisir de communiquer avec vous le plus rapidement possible.
+          &nbsp;Ce sera plaisir de vous répondre le plus rapidement possible.
         </p>
       </div>
 
@@ -48,7 +47,10 @@ export default function UpdatePageLayout({version, children}) {
       {
         version
           ? <div className="container">
-            <Link to="/docs/bases/prise-en-main-du-logiciel/">Consultez la documentation &rarr;</Link>
+            <p>D'autres améliorations du logiciel sont à venir. Faites nous part de vos commentaires à
+              admin@finance-d.com. Ce sont vos feedbacks qui font avancer le logiciel plus rapidement.</p>
+            <Link to="/docs/bases/prise-en-main-du-logiciel/">Consultez la documentation du
+              logiciel &rarr;</Link>
             <br/>
             <br/>
             <LinkButton to="/updates">Voir l'historique des mises à jour antérieures &rarr;</LinkButton>
