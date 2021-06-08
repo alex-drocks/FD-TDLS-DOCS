@@ -47,6 +47,11 @@
   width: 200px;
 }
 
+.versionUpdate {
+  border-bottom: 4px solid var(--ifm-color-primary);
+  margin: 1rem 0 5.5rem 0;
+}
+
 .versionNumber {
   text-transform: uppercase;
 }

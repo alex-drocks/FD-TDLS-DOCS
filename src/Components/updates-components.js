@@ -17,7 +17,7 @@ function VersionUpdate({version, date, children}) {
               }</p>
             </div>
             {children}
-            <hr/>
+            {/*<hr/>*/}
             <br/>
           </div>
         </div>

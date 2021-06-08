@@ -29,7 +29,8 @@ export default function UpdatePageLayout({version, children}) {
       <div className="container">
         <br/>
         <br/>
-        <h2><a href="https://finance-d.com">Finance&nbsp;D&nbsp;— Tenue de livres simplifiée</a></h2>
+        <h2><a style={{textDecoration: "underline"}} href="https://finance-d.com">Finance&nbsp;D&nbsp;— Tenue de livres
+          simplifiée</a></h2>
         <p>
           Pour signaler un problème, nous faire part de vos commentaires, ou pour
           toutes questions, veuillez SVP nous écrire à&nbsp;

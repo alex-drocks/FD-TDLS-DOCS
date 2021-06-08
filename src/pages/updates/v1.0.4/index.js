@@ -4,14 +4,14 @@ import Image from '@theme/IdealImage';
 import UpdatePageLayout from "../../../Components/UpdatePageLayout";
 import {VersionUpdate, NewFeatures, Improvements, Item, BugFixes} from "../../../Components/updates-components";
 
-import LazyGif from "../../../Components/LazyGif";
+// import LazyGif from "../../../Components/LazyGif";
 import Link from "@docusaurus/core/lib/client/exports/Link";
 
 
 export default function Index() {
   return (
     <UpdatePageLayout version={"1.0.4"}>
-      <VersionUpdate version={"1.0.4"} date={""}>
+      <VersionUpdate version={"1.0.4"} date={"2021-06-07"}>
         <NewFeatures>
           <Item>
             Nouvelle section avancée dans les options de "Mon Dossier".
@@ -23,7 +23,6 @@ export default function Index() {
             dans un dossier Finance&nbsp;D grâce à des fichiers au format JSON.
             Cette fonction sert à ajouter des enregistrements qui proviennent d'un autre dossier Finance&nbsp;D.
             <br/>
-            <br/>
             <Link to="/docs/gestion-dossiers/import-json/">En savoir plus sur l'importation &rarr;</Link>
 
           </Item>
@@ -34,13 +33,11 @@ export default function Index() {
             Cette fonction sert à partager des enregistrements spécifiques qui proviennent de votre dossier
             Finance&nbsp;D.
             <br/>
-            <br/>
             <Link to="/docs/gestion-dossiers/export-json/">En savoir plus sur l'exportation &rarr;</Link>
           </Item>
           <Item>Nouvelle fonction pour <strong>archiver les vielles factures</strong> de votre dossier.
             Si vous souhaitez closer une période comptable, ou que vous avez un trop grand nombre de factures dans votre
             dossier, vous pouvez maintenant l'archiver.
-            <br/>
             <br/>
             <Link to="/docs/gestion-dossiers/archiver-un-dossier/">En savoir plus sur l'archivage &rarr;</Link>
           </Item>
