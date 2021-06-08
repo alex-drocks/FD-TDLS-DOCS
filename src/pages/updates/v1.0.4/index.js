@@ -48,9 +48,11 @@ export default function Index() {
 
         <Improvements>
           <Item>
+            Les boites de dialogues de confirmation pour supprimer un nom et une facture on été révisées pour être plus
+            simples.
 
+            <Image img={require("../../../../static/img/updates/v104_new-dialog-style.png")}/>
           </Item>
-
         </Improvements>
 
         <BugFixes>
@@ -81,6 +83,17 @@ export default function Index() {
             Correction d'un problème où les paiements d'une facture récurrente étaient parfois enregistrés sous la
             valeur "aujourd'hui". Ce problème faisait en sorte qu'au moment de recharger cette facture, le paiement
             allait prendre la date d'aujourd'hui au lieu de garder la date réelle du paiement enregistré.
+          </Item>
+          <Item>
+            Correction d'une imprécision de 0.01$ sur certains cas d'arrondissements exceptionnels
+            du sous-total et du grand-total des factures.
+            Il pouvait y avoir des cas où le calcul après l'arrondissement à deux décimales
+            devenait mathématiquement impossible et devait donc être ajusté d'une cent (0.01$).
+            Par exemple: 79.95$ plus taxes donnera maintenant 91.93$ au lieu de 91.92$ puisque
+            {" "}<code>79.95$ + 4.00 + 7.98 = 91.93$</code>.
+            <br/>
+            <strong>Note:</strong> Vos factures existantes ne seront pas affectées par ce
+            changement. Ce sont les nouvelles factures qui utiliseront ce nouvel arrondissement ajusté.
           </Item>
         </BugFixes>
       </VersionUpdate>
