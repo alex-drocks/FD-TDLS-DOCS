@@ -43,6 +43,7 @@ module.exports = {
     ],
     "Gestion des dossiers de tenue de livres": [
       "gestion-dossiers/intro-gestion-dossiers",
+      "gestion-dossiers/memoriser-mot-de-passe",
       "gestion-dossiers/copies-de-sauvegarde",
       "gestion-dossiers/modifier-nom-dossier",
       "gestion-dossiers/supprimer-dossier",

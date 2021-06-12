@@ -75,8 +75,9 @@ li div > svg {
 }
 
 .linkButton {
+  font-size: 1rem;
   padding: 0.85em 1.1em;
-  box-shadow: 1px 2px 4px #e5e5e5;
+  box-shadow: 1px 2px 4px rgba(200, 200, 200, 0.5);
 }
 
 .linkButton:hover {

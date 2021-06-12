@@ -27,7 +27,7 @@ import v098_tooltips from '../../../static/img/updates/v098_tooltips.png';
 export default function Index() {
   return (
     <UpdatePageLayout>
-      <VersionUpdate version={"1.0.4"} date={"2021-06-07"}>
+      <VersionUpdate version={"1.0.4"} date={"2021-06-12"}>
         <NewFeatures>
           <Item>
             Nouvelle section avancée dans les options de "Mon Dossier".
@@ -57,14 +57,39 @@ export default function Index() {
             <br/>
             <Link to="/docs/gestion-dossiers/archiver-un-dossier/">En savoir plus sur l'archivage &rarr;</Link>
           </Item>
+          <Item>
+            La fenêtre de connexion à vos dossiers de tenue de livres peut maintenant
+            {" "}<strong>mémoriser votre mot de passe</strong> si vous le voulez.
+            Cette fonction est optionnelle et indépendante pour chaque dossier.
+            <br/>
+            <Link to="/docs/gestion-dossiers/memoriser-mot-de-passe/">En savoir plus à propos de la mémorisation du mot
+              de passe&rarr;</Link>
+
+            <Image img={require("../../../static/img/updates/v104_password-memo.png")}/>
+          </Item>
         </NewFeatures>
 
         <Improvements>
           <Item>
             Les boites de dialogues de confirmation pour supprimer un nom et une facture on été révisées pour être plus
             simples.
-
             <Image img={require("../../../static/img/updates/v104_new-dialog-style.png")}/>
+          </Item>
+          <Item>
+            Lorsque vous créez un nouveau dossier de tenue de livres,
+            il s'ouvrira automatiquement sans avoir besoin
+            d'écrire le mot de passe.
+          </Item>
+          <Item>
+            Il faut maintenant un seul clic sur la boîte de sélection d'un nom de client ou fournisseur
+            pour que la liste de vos noms s'affiche. Avant, le nom sélectionné restait le seul visible et il fallait
+            absolument cliquer sur la flèche de droite, ou faire un double clic pour voir les autres choix de nom.
+
+            <LazyGif
+              height={221}
+              alt={"Sélectionner un nom de client ou fournisseur dans Finance D"}
+              relativePath={"updates/v104_single-clic-select-name.gif"}
+            />
           </Item>
         </Improvements>
 
@@ -108,7 +133,19 @@ export default function Index() {
             <strong>Note:</strong> Vos factures existantes ne seront pas affectées par ce
             changement. Ce sont les nouvelles factures qui utiliseront ce nouvel arrondissement ajusté.
           </Item>
+          <Item>
+            Corrections mineures de l'interface visuelle sur Mac. Il y avait un mauvais alignements à certains endroit
+            dû au fait que le type de police par défaut sur un Mac est différent de celui Windows.
+          </Item>
         </BugFixes>
+
+        <p>
+          C'est tout. Nous espérons que cela vous sera utile.
+          <br/><br/>
+          Pour la prochaine version (1.0.5), des améliorations sont prévues pour la gestion des numéros de factures de
+          revenus et pour plus de flexibilité au niveau des colonnes affichées sur vos factures imprimées.
+          Possiblement aussi, l'addition d'autocomplétion pour les descriptions.
+        </p>
       </VersionUpdate>
 
       <VersionUpdate version={"1.0.3"} date={"2021-05-18"}>
