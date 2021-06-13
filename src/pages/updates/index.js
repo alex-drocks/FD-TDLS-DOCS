@@ -27,7 +27,7 @@ import v098_tooltips from '../../../static/img/updates/v098_tooltips.png';
 export default function Index() {
   return (
     <UpdatePageLayout>
-      <VersionUpdate version={"1.0.4"} date={"2021-06-12"}>
+      <VersionUpdate version={"1.0.4"} date={"2021-06-13"}>
         <NewFeatures>
           <Item>
             Nouvelle section avancée dans les options de "Mon Dossier".
@@ -134,17 +134,14 @@ export default function Index() {
             changement. Ce sont les nouvelles factures qui utiliseront ce nouvel arrondissement ajusté.
           </Item>
           <Item>
-            Corrections mineures de l'interface visuelle sur Mac. Il y avait un mauvais alignements à certains endroit
+            Corrections mineures de l'interface visuelle sur Mac. Il y avait un mauvais alignement à certains endroits
             dû au fait que le type de police par défaut sur un Mac est différent de celui Windows.
           </Item>
         </BugFixes>
 
         <p>
-          C'est tout. Nous espérons que cela vous sera utile.
-          <br/><br/>
           Pour la prochaine version (1.0.5), des améliorations sont prévues pour la gestion des numéros de factures de
-          revenus et pour plus de flexibilité au niveau des colonnes affichées sur vos factures imprimées.
-          Possiblement aussi, l'addition d'autocomplétion pour les descriptions.
+          revenus et possiblement aussi, l'addition d'auto-complétion pour les descriptions.
         </p>
       </VersionUpdate>
 
