@@ -29,6 +29,18 @@ des enregistrements Finance D qui sont valides,
 vous verrez un dialogue de confirmation qui affichera le nombre
 d'enregistrements qui ont été importés avec succès.
 
+## Considérations importantes
+
+- Quand vous importez des factures de revenus ou de dépenses,
+les catégories financières qui sont dans ces factures sont
+automatiquement ajoutées si elles n'existent pas.
+
+- Si vous essayez d'importer un enregistrement qui existe déjà dans votre dossier,
+l'importation ne va pas écraser celui qui existe déjà.
+Par exemple : Si vous avez le client "Maxime" dans votre dossier
+et que vous essayer d'importer des clients parmi lesquels il existe un client au nom de "Maxime",
+votre client original ne sera pas remplacé par celui dans le fichier d'importation.
+
 :::note
 Si vous souhaitez générer des enregistrements Finance D valides par vous-mêmes,
 [consultez notre schema d'importation JSON sur Github](https://github.com/alex-drocks/finance-d-electron-app-json-schemas),
