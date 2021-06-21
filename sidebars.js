@@ -53,6 +53,10 @@ module.exports = {
       "gestion-dossiers/import-json",
       "gestion-dossiers/export-json",
       "gestion-dossiers/archiver-un-dossier"
-    ]
+    ],
+    "Options, préférences et paramètres": [
+      "options/introduction-aux-options",
+      "options/ma-facturation",
+    ],
   },
 };
