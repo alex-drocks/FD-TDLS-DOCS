@@ -35,6 +35,7 @@ module.exports = {
       'transactions/options-supplementaires-transactions',
       'transactions/remplacement-calculatrice',
       'transactions/convertir-usd-cad',
+      'transactions/modeles-de-transactions-et-produits',
     ],
     "Catégories financières": [
       'categories/intro-categories-financieres',
