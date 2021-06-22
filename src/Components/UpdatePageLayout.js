@@ -48,13 +48,15 @@ export default function UpdatePageLayout({version, children}) {
       {
         version
           ? <div className="container">
-            <p>D'autres améliorations du logiciel sont à venir. Faites nous part de vos commentaires à
-              admin@finance-d.com. Ce sont vos feedbacks qui font avancer le logiciel plus rapidement.</p>
+            <p>Sentez-vous bien à l'aise de nous faire part de vos commentaires
+              en nous écrivant un courriel à l'adresse suivante&nbsp;:
+              admin@finance-d.com. Ce sera un plaisir de vous lire et de pouvoir vous répondre.
+            </p>
+            <LinkButton to="/updates">Voir l'historique des mises à jour antérieures &rarr;</LinkButton>
+            <br/>
+            <br/>
             <Link to="/docs/bases/prise-en-main-du-logiciel/">Consultez la documentation du
               logiciel &rarr;</Link>
-            <br/>
-            <br/>
-            <LinkButton to="/updates">Voir l'historique des mises à jour antérieures &rarr;</LinkButton>
             <br/>
             <br/>
             <br/>
