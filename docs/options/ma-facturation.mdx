@@ -1,28 +1,86 @@
 ---
 id: ma-facturation
-title: Ma Facturation
+title: Options "Ma Facturation"
 ---
 
 import Image from '@theme/IdealImage';
+import LazyGif from "../../src/Components/LazyGif";
 
 Les options dans l'onglet "Ma facturation", concernent votre facturation client.
 C'est dans cet onglet de la fenêtre des options que vous pouvez définir vos préférences
 par rapport à la gestion de vos factures de revenus.
 
-## Quelles sont vos préférences pour vos nouveaux clients ?
-Vous pouvez définir quel code taxe et quelle catégorie financière que vous voulez utiliser par défaut.
-Donc, quand vous allez créer un nouveau client, Finance&nbsp;D utilisera toujours votre choix.
+
+## Sélectionnez votre logo d'entreprise
+Cliquez sur l'image pour choisir votre logo d'entreprise à afficher sur vos factures de revenus.
+Il sera visible quand vous envoyez la facture à votre client en PDF et quand vous l'imprimez sur papier.
+
+Si vous n'avez aucun logo, vous pouvez décocher la case "Afficher ce logo sur mes factures clients" pour ne rien
+afficher à la section du logo sur vos factures de revenus.
+
+<LazyGif
+  relativePath="options/facturation/options-facturation-selection-logo.gif"
+  alt="Comment sélectionner votre logo d'entreprise dans Finance D"
+  height={713}
+/>
+
+
+## Code taxe et catégorie financière par défaut pour vos nouveaux clients
+Vous pouvez définir quel code taxe et quelle catégorie financière à utiliser par défaut.
+Donc, quand vous allez créer un nouveau client, Finance&nbsp;D utilisera votre choix.
+
+Par exemple, si vous êtes enregistrés aux taxes du Québec, sélectionnez QC comme code taxe par défaut.
+Et si votre entreprise offre principalement des services, sélectionnez la catégorie financière "Services".
 
 <Image img={require('../../static/img/options/facturation/options-facturation-taxe-et-categorie.png')}/>
 
-## Comment Finance&nbsp;D doit-il générer vos numéros de factures ?
-Si vous voulez personnaliser la manière dont le logiciel génère votre séquence de numéros de factures de revenus,
-utilisez ces préférences. Il est possible d'utiliser un préfixe ainsi que l'année en cours et une longueur minimale.
+
+## Le générateur de numéros de factures de revenus
+Par défaut, Finance D utilise une séquence de chiffres en commençant par 1 et en augmentant de 1
+à chaque fois que vous enregistrez une nouvelle facture de revenus. Par exemple : 1 &rarr; 2.
+
+<strong>Si vous êtes rendus à un nombre plus élevé que 1</strong> pour votre première facture dans Finance D,
+il suffit de modifier manuellement le chiffre et d'enregistrer votre facture.
+Ainsi, la prochaine fois que le logiciel va générer votre numéro, il sera rendu au chiffre précédent
+que vous avez indiqué +1. Par exemple : 700 &rarr; 701.
+<br/>
+<br/>
+Par contre, <strong>si vous voulez personnaliser vos numéros de factures</strong> de revenus,
+modifiez les préférences du générateur de numéro.
+Il est possible de combiner les options à votre guise en choisissant
+un préfixe selon les lettres du nom de vos clients, ou un préfixe manuel,
+ainsi que l'année en cours et une longueur minimale pour vos numéros de factures de revenus.
 
 <Image img={require('../../static/img/options/facturation/facturation-numeros-facture-revenus.png')}/>
 
 Servez-vous de l'exemple de numéro au fur et à mesure que vous ajustez vos préférences du générateur de numéros
 pour vous aider à voir l'impact de vos changements.
+
+:::note
+Peu importe la combinaison que vous utilisez pour le générateur de numéros de factures de revenus,
+Finance&nbsp;D va toujours ajouter une séquence de numérotation automatique pour s'assurer que
+vos numéros soient uniques.
+En effet, il faut que chaque numéro soit unique pour que vos factures soient valides.
+:::
+
+
+## Modifier les informations de contact affichées sur vos factures de revenus
+Quand vous imprimez vos factures de revenus en PDF, ou sur papier, pour les remettre à vos clients,
+vous voyez la section des contacts "Facturé par:" et "Facturé à:" comme dans l'image ci-dessous.
+
+<Image img={require('../../static/img/options/facturation/options-facturation-impression-contacts.png')}/>
+
+<br/>
+
+Vous pouvez sélectionner indépendamment
+ce qui doit être affiché dans la section de vos informations personnelles
+("Facturé par:"),
+et aussi pour la section des informations de vos clients ("Facturé à:").
+
+<Image img={require('../../static/img/options/facturation/options-facturation-section-facturé-par.png')}/>
+
+Quand vous avez terminé d'ajuster vos options, cliquez sur le bouton "Enregistrer et fermer",
+ou appuyez sur le raccourci clavier <kbd>Ctrl</kbd> + <kbd>S</kbd>.
 
 <br/>
 <br/>
