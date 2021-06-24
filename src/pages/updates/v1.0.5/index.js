@@ -6,7 +6,7 @@ import Image from '@theme/IdealImage';
 import Link from "@docusaurus/core/lib/client/exports/Link";
 //<Link to="/docs/gestion-dossiers/import-json/">En savoir plus sur l'importation &rarr;</Link>
 
-import LazyGif from "../../../Components/LazyGif";
+// import LazyGif from "../../../Components/LazyGif";
 // <LazyGif
 //   height={221}
 //   alt={"Sélectionner un nom de client ou fournisseur dans Finance D"}
@@ -20,7 +20,7 @@ import {VersionUpdate, NewFeatures, Improvements, Item, BugFixes} from "../../..
 export default function Index() {
   return (
     <UpdatePageLayout version={"1.0.5"}>
-      <VersionUpdate version={"1.0.5"} date={""}>
+      <VersionUpdate version={"1.0.5"} date={"2021-06-24"}>
         <NewFeatures>
           <Item>
             Ajout de nouvelles options pour
@@ -51,6 +51,15 @@ export default function Index() {
             <Link to="/docs/transactions/modeles-de-transactions-et-produits/">
               En savoir plus à propos des modèles de transactions &rarr;
             </Link>
+          </Item>
+
+          <Item>
+            Ajout d'une nouvelle option pour
+            {" "}<strong>choisir de ne plus afficher les info-bulles</strong>{" "}
+            de la fenêtre principale. Ces info-bulles sont les popups qui vous informent quand votre souris passe
+            au-dessus d'un element. Quand on est habitué au logiciel, elles pourraient devenir encombrantes, donc il est
+            maintenant possible de les faire disparaitre si c'est ce que vous préférez. Pour y arriver, allez dans vos
+            {" "}<strong><i>Options > Mes Préférences > Affichage des info-bulles</i></strong>.
           </Item>
         </NewFeatures>
 
@@ -140,11 +149,25 @@ export default function Index() {
             Correction du raccourci clavier <kbd>Ctrl</kbd> + <kbd>M</kbd> qui ne fonctionnait pas toujours
             comme prévu pour afficher les modèles de transactions.
           </Item>
+
+          <Item>
+            Nous avons corrigé une erreur importante qui pouvait arriver en <strong>mode d'enregistrement dans un
+            dossier cloud personnel</strong>. Si un utilisateur avait une version du logiciel plus vielle
+            que la version de la base de donnée,
+            il n'était pas averti, ni bloqué. Cette erreur pouvait corrompre les données et rendre le dossier de tenue
+            de livres inutilisable. <strong>À partir de maintenant, il sera impossible d'ouvrir un dossier
+            Finance&nbsp;D
+            qui est plus récent que votre version du logiciel</strong>. Il sera également impossible d'importer une
+            copie de sauvegarde plus récente que votre logiciel. Un avertissement vous informera de ce fait et vous
+            conseillera d'obtenir la dernière mise à jour du logiciel avant d'ouvrir le dossier.
+          </Item>
         </BugFixes>
 
         <p>
-          Dans la prochaine version (v1.0.6), nous allons nous concentrer sur l'amélioration de la fenêtre
-          d'impression des factures de revenus, sauf si nous rencontrons des nécessités plus urgentes à régler.
+          Dans la prochaine version majeure (v1.1.0), nous allons nous concentrer sur la distribution du logiciel
+          pour les nouveaux processeurs Apple M1 des ordinateurs Mac 2020+. Avec un logiciel compatible pour
+          le M1, la performance sera au minimum 2x plus rapide. C'est extrêmement performant. Nous allons également
+          réviser et améliorer certains aspects généraux selon le besoin.
         </p>
       </VersionUpdate>
     </UpdatePageLayout>
