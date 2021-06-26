@@ -58,8 +58,8 @@ a[class*="footerLogoLink"] {
 
 .markdown div > img,
 .markdown div > svg,
-li div > img,
-li div > svg {
+li:not(.DocSearch-Hit) div > img,
+li:not(.DocSearch-Hit) div > svg {
   box-shadow: 0 0 6px 1px #dedede;
   width: auto !important;
 }

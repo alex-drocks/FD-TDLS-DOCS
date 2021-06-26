@@ -37,7 +37,7 @@ export default function Index() {
             Cette nouveauté répond à plusieurs requêtes des utilisateurs et sera utile
             quand vos séquences de numéros incluent des préfixes et/ou des séparateurs. Par exemple: FE2021-0001.
             <br/>
-            <Link to="/docs/options/ma-facturation#personnaliser-vos-numéros-de-factures-de-revenus">
+            <Link to="/docs/options/ma-facturation/#personnaliser-vos-numéros-de-factures-de-revenus">
               En savoir plus à propos des numéros de factures personnalisés &rarr;
             </Link>
           </Item>
@@ -113,7 +113,7 @@ export default function Index() {
           </Item>
 
           <Item>
-            Cliquez dans la case "Mes factures" va maintenant toujours ouvrir la fenêtre de recherche plutôt
+            Cliquer dans la case "Mes factures" va maintenant toujours ouvrir la fenêtre de recherche plutôt
             que de permettre d'écrire du texte. Ce sera plus intuitif et rapide car de toute manière, il est possible
             d'écrire ce que l'on cherche directement dans la fenêtre de recherche.
 
