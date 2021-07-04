@@ -18,7 +18,7 @@ const features = [
     description: (
       <>
         Apprenez comment mieux utiliser le logiciel <NoWrap>Finance D</NoWrap> - Tenue de livres simplifiée
-        en consultant notre <Link to="docs">documentation</Link>.
+        en consultant notre <Link to="/docs/installation/installer-windows">documentation</Link>.
       </>
     ),
   },
@@ -84,7 +84,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('/docs/installation/installer-windows')}>
               Commencez ici
             </Link>
           </div>

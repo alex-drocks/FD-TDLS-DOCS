@@ -24,7 +24,7 @@ module.exports = {
       },
       items: [
         {
-          to: '/docs',
+          to: '/docs/installation/installer-windows',
           activeBasePath: 'docs',
           label: 'Documentation',
           position: 'left',
