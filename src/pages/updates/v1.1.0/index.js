@@ -23,38 +23,43 @@ export default function Index() {
       <VersionUpdate version={"1.1.0"} date={"2021-07-03"}>
         <NewFeatures>
           <Item>
-            Lancement du logiciel compatible avec les nouveaux
+            Lancement du logiciel Finance&nbsp;D compatible avec les nouveaux
             {" "}<a href="https://support.apple.com/fr-ca/HT211814"
-                    target="_blank" rel="noopener noreferrer"><strong>Mac Apple Silicon</strong> équipé du processeur M1
-          </a>.
+                    target="_blank" rel="noopener noreferrer"><strong>Mac équipés du processeur Apple M1</strong>
+          </a> (concerne les propriétaires d'un Mac fabriqué en 2020+).
             <br/>
             <br/>
             <i>
-              Si vous, ou quelqu'un que vous connaissez, possédez un <strong>Mac dont l'année de fabrication
-              est de 2020 et plus</strong>, il y a de forte chance que vous ayez en votre posession un Mac équipé du
-              nouveau processeur d'Apple Silicon <strong>(la puce M1)</strong>.
+              Si vous possédez un <strong>Mac dont l'année de fabrication
+              est de 2020 et plus</strong>, il y a de fortes chances que vous ayez en votre possession un Mac équipé du
+              nouveau processeur d'Apple <strong>(la puce M1)</strong>. Ce nouveau processeur révolutionne les ordis Mac
+              en remplaçant les processeurs d'Intel qui étaient utilisés par Apple depuis plusieurs années.
               <br/><br/>
-              <strong>En téléchargeant la version pour Apple Silicon la performance du logiciel Finance&nbsp;D va
-                augmenter d'au moins 100%</strong> en comparaison à quand vous deviez utiliser
-              {" "}<a href="https://support.apple.com/fr-ca/HT211861" target="_blank" rel="noreferrer noopener">
-              Rosetta
-            </a>{" "}
-              pour
-              ouvrir le logiciel conçu pour les Mac
-              équipé d'un processeur Intel. C'est extrêmement rapide et surprenant.
+              <strong>En téléchargeant la version du logiciel Finance&nbsp;D pour le processeur Apple M1,
+                la performance du logiciel va augmenter d'au moins 100%</strong>.
+              C'est extrêmement rapide et surprenant.
               Par exemple: sur un MacBook Air 2020 avec le nouveau processeur M1, le logiciel performe plus vite que sur
-              un PC Windows 10 équipé d'un i7 à 4.9ghz&nbsp;! (Presque difficile à croire)
+              un PC Windows 10 équipé d'un i7 à 4.9&nbsp;ghz (presque difficile à croire)&nbsp;!
             </i>
             <br/>
             <br/>
-            <strong>Les liens de téléchargement</strong> sont
-            accessibles à partir de notre site internet&nbsp;:{" "}
-            <a href="https://finance-d.com/telecharger/">Télécharger pour Mac (Apple Silicon avec processeur
-              M1) &darr;</a>
+            <strong>Voici le lien de téléchargement direct</strong>&nbsp;:{" "}
+            <a href="https://app.finance-d.com/telechargement/mac/arm64/FinanceD-Installation.dmg">
+              Télécharger pour Mac (processeur Apple M1) &darr;
+            </a>
             <br/>
             <br/>
-            <strong>NOTE&nbsp;:</strong> Si vous ne possédez pas un Mac qui est équipé du nouveau processeur Apple M1,
-            vous avez déjà le bon produit et ne devez donc pas télécharger le logiciel à nouveau.
+            <strong>NOTE 1&nbsp;:</strong> Si vous possédez un Mac équipé du processeur M1, tout ce que vous devez faire
+            est de <a href="https://app.finance-d.com/telechargement/mac/arm64/FinanceD-Installation.dmg">
+            télécharger et installer le logiciel Finance&nbsp;D compatible</a> pour votre système.
+            Tous vos enregistrements seront conservés (factures, clients, fournisseurs, etc.). Il n'y a aucun risque
+            pour vos données. C'est seulement le moteur de Finance&nbsp;D qui sera mis à jour. Vous remarquerez une
+            nette amélioration de la performance du logiciel juste en faisant cela.
+            <br/>
+            <br/>
+            <strong>NOTE 2&nbsp;:</strong> Si vous ne possédez pas un Mac 2020+ qui est équipé du nouveau processeur
+            Apple
+            M1, vous avez déjà le bon produit Finance&nbsp;D. Cet aspect de la mise à jour ne vous affecte donc pas.
           </Item>
 
           <Item>
