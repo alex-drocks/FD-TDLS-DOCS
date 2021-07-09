@@ -44,6 +44,15 @@ html[data-theme="dark"] {
   box-shadow: 0 3px 8px var(--ifm-color-primary-darkest);
 }
 
+.navbar__title {
+  overflow: visible;
+  text-overflow: initial;
+}
+
+.navbar__link {
+  line-height: 1em;
+}
+
 .footer__logo {
   max-width: 48px;
 }
