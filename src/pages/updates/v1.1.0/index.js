@@ -3,7 +3,7 @@ import React from 'react';
 import Image from '@theme/IdealImage';
 //<Image img={require("../../../../static/img/updates/v104_advanced-folder-options.png")}/>
 
-// import Link from "@docusaurus/core/lib/client/exports/Link";
+import Link from "@docusaurus/core/lib/client/exports/Link";
 //<Link to="/docs/gestion-dossiers/import-json/">En savoir plus sur l'importation &rarr;</Link>
 
 // import LazyGif from "../../../Components/LazyGif";
@@ -24,9 +24,9 @@ export default function Index() {
         <NewFeatures>
           <Item>
             Lancement du logiciel Finance&nbsp;D compatible avec les nouveaux
-            {" "}<a href="https://support.apple.com/fr-ca/HT211814"
-                    target="_blank" rel="noopener noreferrer"><strong>Mac équipés du processeur Apple M1</strong>
-          </a> (concerne les propriétaires d'un Mac fabriqué en 2020+).
+            {" "}<Link to="/blog/version-du-logiciel-pour-mac-avec-processeur-apple-m1">
+            <strong>Mac équipés du processeur Apple M1</strong>
+          </Link> (concerne les propriétaires d'un Mac fabriqué en 2020+).
             <br/>
             <br/>
             <i>
