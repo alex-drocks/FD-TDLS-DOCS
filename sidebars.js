@@ -1,10 +1,6 @@
 //this is the sidebar for the documentation mdx files
 module.exports = {
   documentation: {
-    "Installer le logiciel": [
-      'installation/installer-windows',
-      'installation/installer-mac'
-    ],
     "Les bases du logiciel": [
       'bases/prise-en-main-du-logiciel',
       'bases/nouveau-dossier',
@@ -55,6 +51,10 @@ module.exports = {
     "Options, préférences et paramètres": [
       "options/introduction-aux-options",
       "options/ma-facturation",
+    ],
+    "Installer le logiciel": [
+      'installation/installer-windows',
+      'installation/installer-mac'
     ],
   },
 };

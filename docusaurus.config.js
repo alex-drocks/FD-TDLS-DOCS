@@ -25,7 +25,7 @@ module.exports = {
       },
       items: [
         {
-          to: '/docs/installation/installer-windows',
+          to: '/docs/bases/prise-en-main-du-logiciel',
           activeBasePath: 'docs',
           label: 'Documentation',
           position: 'left',

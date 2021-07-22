@@ -18,7 +18,7 @@ const features = [
     description: (
       <>
         Apprenez comment mieux utiliser le logiciel <NoWrap>Finance D</NoWrap> - Tenue de livres simplifiée
-        en consultant notre <Link to="/docs/installation/installer-windows">documentation</Link>.
+        en consultant notre <Link to="/docs/bases/prise-en-main-du-logiciel">documentation</Link>.
       </>
     ),
   },
@@ -84,7 +84,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('/docs/installation/installer-windows')}>
+              to={useBaseUrl('/docs/bases/prise-en-main-du-logiciel')}>
               Commencez ici
             </Link>
           </div>
