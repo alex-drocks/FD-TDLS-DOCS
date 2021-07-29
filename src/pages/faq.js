@@ -56,10 +56,10 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id={3}>
-            <h3>Le logiciel fonctionne sur quels appareils&nbsp;?</h3>
+            <h3>Le logiciel Finance&nbsp;D fonctionne sur quels appareils&nbsp;?</h3>
             <p>
               Le <LogicielFD/> est conçu pour fonctionner
-              sur les ordinateurs <strong>Windows</strong>. De préférences,
+              sur les ordinateurs <strong>Windows</strong>. De préférence,
               ayant la version Windows 10 et un système
               relativement récent pour une performance optimale.{" "}
               <Link to="#5">(Voir les spécifications minimales requises)</Link>.
@@ -68,7 +68,7 @@ export default function Faq() {
             </p>
           </Question>
           <Question id={4}>
-            <h3>Le logiciel est-il compatible avec Mac&nbsp;?</h3>
+            <h3>Le logiciel Finance&nbsp;D est-il compatible avec Mac&nbsp;?</h3>
             <p>
               <strong>Oui</strong>. Le <LogicielFD/> est compatible avec les ordinateurs Mac (Apple).
               Ceci inclut les nouveaux Mac qui sont équipés de la puce Apple M1 (fabriqués depuis 2020).
@@ -77,7 +77,7 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id={5}>
-            <h3>Spécifications minimales requises pour utiliser le logiciel</h3>
+            <h3>Quelles sont les spécifications minimales requises pour utiliser le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Vous avez besoin d'un ordinateur qui correspond aux spécifications suivantes:<br/>
               <strong>Système d'exploitation (OS):</strong>
@@ -97,7 +97,7 @@ export default function Faq() {
             </p>
           </Question>
           <Question id={6}>
-            <h3>Comment savoir si mon ordinateur est compatible avec le logiciel&nbsp;?</h3>
+            <h3>Comment savoir si mon ordinateur est compatible avec le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Trouvez les détails techniques de votre ordinateurs et
               comparez les avec <Link to="#5">nos spécifications minimales requises</Link>.
@@ -118,12 +118,12 @@ export default function Faq() {
               De plus, tout ce qui est sauvegardé dans votre ordinateur est encrypté selon les standards AES-256.
               Ce qui a pour résultat que sans le mot de passe de votre dossier <NoWrap>Finance D</NoWrap>,
               et sans un accès physique à votre ordinateur, personne ne peut voir les données contenues dans votre
-              installation du logiciel. Notez que Finance&nbsp;D connait est l'adresse courriel utilisée
-              pour créer un dossier dans le logiciel et nous respectons votre vie privée.
+              installation du logiciel. Notez que Finance&nbsp;D a accès à l'adresse courriel que vous avez utilisée
+              pour créer un nouveau dossier dans le logiciel et nous respectons votre vie privée.
             </p>
           </Question>
           <Question id="8">
-            <h3>À qui est-ce que le logiciel convient&nbsp;?</h3>
+            <h3>À qui est-ce que le logiciel Finance&nbsp;D convient le mieux&nbsp;?</h3>
             <p>
               Cela dépend de vos activités. Toutefois,
               nous avons conçu le <LogicielFD/>
@@ -156,7 +156,7 @@ export default function Faq() {
             </p>
           </Question>
           <Question id="10">
-            <h3>Pourquoi est-ce que je dois créer un dossier pour utiliser le logiciel&nbsp;?</h3>
+            <h3>Pourquoi est-ce que je dois créer un dossier pour utiliser le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Il est nécessaire de créer un dossier pour utiliser le <LogicielFD/>,
               car c'est le moyen de sécuriser vos données avec un mot de passe.
@@ -169,7 +169,7 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id="11">
-            <h3>Comment obtenir les mises à jour du logiciel&nbsp;?</h3>
+            <h3>Comment obtenir les mises à jour du logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Les mises à jour du <LogicielFD/> se font automatiquement
               à partir du moment qu'il a été installé sur votre ordinateur.
@@ -185,7 +185,7 @@ export default function Faq() {
             </p>
           </Question>
           <Question id="12">
-            <h3>Est-ce que vous offrez du soutien technique&nbsp;?</h3>
+            <h3>Est-ce que vous offrez du soutien technique pour le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Oui. Mais, limité.
               Nous allons prioriser nos clients de tenue de livres
@@ -201,7 +201,7 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id="13">
-            <h3>Qui est responsable du développement du logiciel&nbsp;?</h3>
+            <h3>Qui est responsable du développement du logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Le <LogicielFD/>, est développé par{" "}
               <Link to="https://www.linkedin.com/in/alexandre-desroches-dev/">Alexandre Desroches</Link>,
@@ -226,8 +226,8 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id={15}>
-            <h3>Le sommaire de taxes est-il fait pour la méthode de déclaration de taxe régulière ou pour la méthode
-              simplifiée&nbsp;?</h3>
+            <h3>Le sommaire de taxes dans le logiciel Finance&nbsp;D est-il fait pour la méthode de déclaration de taxe
+              régulière ou pour la méthode simplifiée&nbsp;?</h3>
             <p>
               Le sommaire de taxes du logiciel <NoWrap>Finance D</NoWrap> est conçu pour la méthode de déclaration de
               taxes régulière.
@@ -240,7 +240,7 @@ export default function Faq() {
             </p>
           </Question>
           <Question id={16}>
-            <h3>Y a-t-il des modules supplémentaires à acheter&nbsp;?</h3>
+            <h3>Y a-t-il des modules supplémentaires à acheter dans le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               <strong>Non</strong>. Enfin, un logiciel qui ne cache pas ses forces derrière votre portefeuille.
               Tout est inclus dans la version gratuite avec la même qualité
@@ -250,7 +250,7 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id={17}>
-            <h3>Est-ce que je peux utiliser mon cloud personnel pour partager un dossier&nbsp;?</h3>
+            <h3>Est-ce que je peux utiliser mon cloud personnel pour partager un dossier Finance&nbsp;D&nbsp;?</h3>
             <p>
               <strong>Oui</strong>. Depuis la version 1.0.1. Il est possible de choisir optionnellement un dossier
               qui se trouve dans votre cloud personnel pour stocker et lire les informations du logiciel.
@@ -264,7 +264,7 @@ export default function Faq() {
             </p>
           </Question>
           <Question id={18}>
-            <h3>Est-ce que mes informations sont sécurisées&nbsp;?</h3>
+            <h3>Est-ce que mes informations sont sécurisées dans le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               <strong>Oui</strong>. Toutes les informations qui sont enregistrées dans votre logiciel Finance&nbsp;D
               sont encryptées selon le standard AES-256 et donc incompréhensibles à un intrus.
@@ -277,18 +277,22 @@ export default function Faq() {
         </QuestionRow>
         <QuestionRow>
           <Question id={19}>
-            <h3>Pourquoi ne pas avoir créé une web app plutôt qu'un logiciel pour ordinateur&nbsp;?</h3>
-            <p>Nous avons créé un logiciel plutôt qu'une application web pour deux raisons&nbsp;:</p>
+            <h3>Pourquoi ne pas avoir créé une application web plutôt qu'un logiciel pour ordinateur&nbsp;?</h3>
+            <p>Nous avons créé un logiciel plutôt qu'une application web pour trois raisons&nbsp;:</p>
             <ol>
               <li>Car les applications webs sont plus couteuses.
                 Ce serait donc impossible de faire tout ce que le logiciel Finance&nbsp;D
-                fait sans devoir vous facturer pour l'utilisation en mode web app.
+                fait sans devoir vous charger pour l'utilisation (le logiciel ne serait pas gratuit).
               </li>
               <li>Car les applications web ne sont pas encore idéales pour des interfaces
                 qui ont plusieurs fenêtres différentes ouvertes en même temps.
                 Par exemple, dans le logiciel vous pouvez avoir la fenêtre
                 de recherche de factures et vos résultats financiers
                 côte-à-côte avec l'interface principale.
+              </li>
+              <li>Car un logiciel installé localement (sur votre ordinateur) a l'avantage de pouvoir fonctionner sans
+                internet et est plus sécuritaire puisqu'il ne sauvegarde pas vos données sur un serveur web. En plus,
+                l'accès aux données est plus rapide qu'avec une base de donnée sur internet.
               </li>
             </ol>
           </Question>
@@ -306,12 +310,11 @@ export default function Faq() {
           </Question>
           <QuestionRow>
             <Question id={21}>
-              <h3>Comment peut-on collaborer avec un comptable en utilisant Finance&nbsp;D&nbsp;?</h3>
+              <h3>Comment peut-on collaborer avec un comptable en utilisant le logiciel Finance&nbsp;D&nbsp;?</h3>
               <p>
-                Contactez votre comptable et dite-lui que vous avez déjà
-                vos chiffres d’affaires de comptabilisés
-                (les factures sont déjà comptabilisées et vous avez des
-                rapports à lui donner).
+                Vous pourriez, par exemple, contactez votre comptable et lui dire que vous avez déjà
+                vos chiffres d’affaires de comptabilisés (les factures sont déjà comptabilisées et vous avez des
+                rapports détaillés disponibles).
                 Ensuite, il vous dira ce qu’il a besoin si jamais il veut des informations plus spécifiques.
                 Les outils que vous avez en votre possession sont assez nombreux avec Finance&nbsp;D&nbsp;:
                 Vous pourriez donner à votre comptable un accès direct à votre dossier Finance&nbsp;D s’il est ouvert à
@@ -324,13 +327,19 @@ export default function Faq() {
               </p>
             </Question>
             <Question id={22}>
-              <h3>Est-ce que logiciel Finance&nbsp;D est de moins bonne qualité parce qu'il est gratuit&nbsp;?</h3>
+              <h3>Est-ce que logiciel Finance&nbsp;D est de bonne qualité même s'il est gratuit&nbsp;?</h3>
               À notre humble avis, le <LogicielFD/> est d'une qualité exceptionnelle et pourrait très bien être
-              commercialisé. Ce que nous faisons, nous le faisons comme si le logiciel était payant.
+              commercialisé. D'ailleurs, il arrive souvent qu'on nous demande pourquoi nous ne le vendons pas...
+              Donc, ce que nous faisons, soyez certain que nous le faisons comme si le logiciel était payant.
               La qualité, l'excellence, la simplicité et l'efficacité sont les aspects fondamentaux qui dirigent
               le projet. Si vous n'êtes pas satisfaits, nous ne sommes pas satisfaits non plus car ce logiciel est comme
               notre bébé. En d'autres mots, le <LogicielFD></LogicielFD> est un projet de la plus haute importance pour
-              l'entreprise Finance&nbsp;D.
+              l'entreprise Finance&nbsp;D. C'est aussi un logiciel qui défini notre marque en tant qu'entreprise. Nous
+              avons donc tout intérêt à fournir un produit de la plus haute qualité qui soit capable d'impressioner
+              les utilisateurs. Ainsi, vous pourrez sans doute remarquer que le logiciel Finance&nbsp;D offre certaines
+              fonctions qui sont meilleures que dans des logiciels payants. Bien sûr notre logiciel n'est pas parfait et
+              nous ne voulons pas discréditer les autres logiciels. Mais, sachez que la gratuité est une bonne nouvelle
+              et non un signe de faible qualité.
             </Question>
           </QuestionRow>
           <QuestionRow>
@@ -346,7 +355,7 @@ export default function Faq() {
               </p>
             </Question>
             <Question id={24}>
-              <h3>Peut-on proposer des demandes d'améliorations du logiciel&nbsp;?</h3>
+              <h3>Peut-on proposer des demandes d'améliorations pour le logiciel Finance&nbsp;D&nbsp;?</h3>
               <p><strong>Oui.</strong> Bien sûr&nbsp;!
                 À chaque jour, nous lisons attentivement les courriels et prenons le temps de répondre adéquatement à
                 chacun. Donc, le meilleur moyen de communiquer une requête d'amélioration, est d'écrire un courriel
