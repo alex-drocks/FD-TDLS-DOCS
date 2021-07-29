@@ -3,6 +3,7 @@ module.exports = {
   tagline: 'Maîtriser le logiciel: Finance D - Tenue de livres simplifiée',
   url: 'https://docs.finance-d.com',
   baseUrl: '/logiciel-tenue-de-livres-simplifiee/',
+  trailingSlash: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -157,7 +158,6 @@ module.exports = {
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
-          trailingSlash: true,
         },
       },
     ],
