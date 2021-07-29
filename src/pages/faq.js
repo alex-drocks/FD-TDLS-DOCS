@@ -33,7 +33,7 @@ export default function Faq() {
             <h3>Le logiciel Finance&nbsp;D est-il vraiment gratuit&nbsp;?</h3>
             <p>
               <strong>Oui</strong>. Le <LogicielFD/> est
-              gratuit à 100% et pour toujours. Il n'y a aucun frais cachés ni
+              gratuit à 100% et pour toujours. Il n'y a aucun frais caché ni
               aucune limite. Dans Finance&nbsp;D, tout est vraiment gratuit et
               sans publicité. Vous pouvez donc considérer Finance&nbsp;D
               comme étant un logiciel comptable gratuit.
