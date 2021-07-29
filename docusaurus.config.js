@@ -17,6 +17,7 @@ module.exports = {
     //   isCloseable: false, // Defaults to `true`.
     // },
     navbar: {
+      hideOnScroll: true,
       title: 'Finance D',
       logo: {
         alt: 'Logo',
@@ -51,7 +52,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href:'https://finance-d.com',
+          href: 'https://finance-d.com',
           label: 'finance-d.com',
           position: 'right',
         }
@@ -65,30 +66,21 @@ module.exports = {
           title: 'Accès rapide',
           items: [
             {
-              label: 'Prise en main',
+              label: 'Prise en main du logiciel',
               to: '/docs/bases/prise-en-main-du-logiciel',
             },
             {
-              label: 'Mises à jour',
+              label: 'Mises à jour du logiciel',
               to: '/updates',
             },
-          ],
-        },
-        {
-          title: 'Plus',
-          items: [
             {
-              label: 'Notre page Facebook',
-              href: 'https://www.facebook.com/Finance.D.Logiciels',
-            },
-            {
-              label: 'FAQ',
+              label: 'Questions fréquentes (FAQ)',
               to: '/faq',
             },
           ],
         },
         {
-          title: 'Autres formations',
+          title: 'Guides et Formations',
           items: [
             {
               label: 'Démonstrations vidéos',
@@ -101,15 +93,19 @@ module.exports = {
           ],
         },
         {
-          title: 'Finance D',
+          title: "Finance D",
           items: [
+            {
+              label: "À propos de l'entreprise",
+              href: 'https://finance-d.com/a-propos',
+            },
             {
               label: 'Présentation du logiciel',
               href: 'https://finance-d.com',
             },
             {
-              label: 'À propos de nous',
-              href: 'https://finance-d.com/a-propos',
+              label: 'Page Facebook de Finance D',
+              href: 'https://www.facebook.com/Finance.D.Logiciels',
             },
           ],
         },
