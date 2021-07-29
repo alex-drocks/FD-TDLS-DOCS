@@ -21,7 +21,7 @@ module.exports = {
       logo: {
         alt: 'Logo',
         src: 'img/logo.png',
-        href: 'https://finance-d.com',
+        href: '/',
       },
       items: [
         {
@@ -49,9 +49,15 @@ module.exports = {
           to: '/faq',
           label: 'FAQ',
           position: 'left',
+        },
+        {
+          href:'https://finance-d.com',
+          label: 'finance-d.com',
+          position: 'right',
         }
       ],
     },
+    hideableSidebar: true,
     footer: {
       style: 'dark',
       links: [
