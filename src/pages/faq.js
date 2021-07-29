@@ -118,7 +118,7 @@ export default function Faq() {
               De plus, tout ce qui est sauvegardé dans votre ordinateur est encrypté selon les standards AES-256.
               Ce qui a pour résultat que sans le mot de passe de votre dossier <NoWrap>Finance D</NoWrap>,
               et sans un accès physique à votre ordinateur, personne ne peut voir les données contenues dans votre
-              installation du logiciel. Notez que Finance&nbsp;D a accès à l'adresse courriel que vous avez utilisée
+              installation du logiciel. Notez que Finance&nbsp;D connait l'adresse courriel que vous avez utilisée
               pour créer un nouveau dossier dans le logiciel et nous respectons votre vie privée.
             </p>
           </Question>
