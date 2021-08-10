@@ -1,0 +1,113 @@
+---
+id: envoyer-facture-par-courriel
+title: Envoyer une facture de revenus par courriel
+---
+
+import Image from '@theme/IdealImage';
+import screenshot from '../../static/img/bases/bouton-imprimer-facture.png';
+
+## Résumé
+
+Pour envoyer vos factures de revenus par courriel, il faut
+premièrement créer une nouvelle facture ou afficher une de vos
+factures existantes dans la fenêtre principale du logiciel.
+Deuxièmement, cliquez sur le bouton avec le logo d'imprimante
+au bas de l'écran principal afin d'ouvrir la fenêtre dédiée
+à l'impression et à l'envoi par courriel.
+Troisièmement, cliquez sur le bouton d'envoi par courriel
+de la fenêtre d'impression et suivez les étapes qui s'affichent à l'écran.
+
+
+## 1. Créez une facture de revenus ou affichez une facture de revenus existante.
+Pour envoyer vos factures de revenus par courriel,
+il faut d'abord que la fenêtre principale du logiciel
+affiche une facture de type "Revenus" qui soit valide.
+
+Donc, les deux options pour arriver à cette étape sont les suivantes&nbsp;:
+
+  * Option A : [Créez une nouvelle facture de revenus](/docs/bases/creer-facture-revenus).<br/>
+  * Options B : [Ouvrez l'une de vos factures de revenus existante à partir de la fenêtre de recherche](/docs/bases/trouver-vos-factures).<br/>
+
+## 2. Ouvrez la fenêtre dédiée à imprimer et envoyer vos factures de revenus par courriel.
+Quand vous aurez une facture de revenus valide affichée dans la fenêtre principale de Finance&nbsp;D,
+vous devriez voir un bouton en bas
+à gauche de la fenêtre principale qui contient un logo en forme d'imprimante.
+Si ce bouton n'est pas visible, c'est soit parce que votre facture contient une erreur,
+ou que vous êtes dans une facture de type "Dépenses" qui ne peut pas être imprimée ni envoyée par courriel.
+
+Cliquez sur le bouton avec le logo en forme d'imprimante comme dans l'image ci-dessous&nbsp;:
+
+<Image img={require("../../static/img/bases/bouton-imprimer-facture.png")}/>
+<br/>
+
+
+## 3. Vérifiez que vos informations de contact ainsi que celles du client incluent les adresses courriel.
+Pour pouvoir envoyer votre facture par courriel, il faut que votre adresse ainsi que celle du client soient
+toutes les deux définies.
+Assurez-vous donc que vos informations de contact ainsi que celles du client incluent les adresses courriel.
+
+* Vérifiez que vos informations de contact personnelles sont bien remplies et que vous avez ajouté votre adresse courriel.
+* Faites de même pour le client que vous facturez en vérifiant que ses informations de contact sont bien remplies
+et que vous avez ajouté son adresse courriel.
+
+Vous devriez voir les deux adresses courriel dans la section "Facturé par" et "Facturé à" de votre facture,
+comme dans l'image ci-dessous&nbsp;:
+
+<Image img={require("../../static/img/bases/informations-contact-sur-facture-imprimable.png")}/>
+<br/>
+
+
+## 4. Cliquez sur le bouton envoyer par courriel
+Quand votre adresse courriel ainsi que celle du client sont définies,
+cliquez sur le bouton bleu en bas à droite de la fenêtre.
+
+<Image img={require("../../static/img/bases/boutons-envoyer-courriel-et-pdf.png")}/>
+<br/>
+
+
+## 5. Confirmer l'envoi du courriel
+La méthode par défaut pour envoyer votre facture par courriel n'est pas automatisée,
+car elle n'utilise pas le protocole SMTP qui doit être manuellement configuré par vous.
+Donc, cette méthode de base, votre programme de messagerie personnel va s'ouvrir
+avec le sujet et le message prérempli. Mais, attention, la pièce jointe de la facture en fichier .PDF
+doit manuellement être ajouté à ce courriel.
+
+<Image img={require("../../static/img/bases/envoyer-le-courriel-manuellement.png")}/>
+<br/>
+
+Si vous voulez automatiser l'envoi du courriel en utilisant le protocole SMTP de votre fournisseur de messagerie électronique,
+vous allez devoir configurer manuellement les paramètres requis. Or, chaque fournisseur est unique ce qui rend la complexité
+plus avancée, mais avec une recherche sur Google, vous pouvez y arriver en quelques minutes et ce sera très pratique à long terme.
+
+Pour envoyer vos factures avec la méthode automatisée qui se sert du protocole SMTP,
+suivez les étapes suivantes :
+
+* Cliquez sur l'icône d'options de la petite fenêtre d'envoi par courriel.
+
+<Image img={require("../../static/img/bases/edit-email-configs.png")}/><br/>
+
+* Choisissez la méthode "SMTP : Automatisation avec votre adresse courriel (configuration requise)".
+* Choisissez votre fournisseur de service courriel. Par exemple : Hotmail, ou Autre.
+* Définissez les paramètres SMTP uniques de votre fournisseur de messagerie électronique.
+* Entrez le mot de passe de votre adresse courriel.
+* Cliquez sur le bouton "Enregistrer ces paramètres".
+
+<Image img={require("../../static/img/bases/smtp-configs.png")}/><br/>
+
+* Cliquez sur le bouton "Envoyer le courriel".
+
+Une notification au bas de la fenêtre vous indiquera si l'envoi par SMTP a été un succès ou s'il y a eu une erreur.
+
+<br/>
+<br/>
+<hr/>
+
+## Terminé
+En conclusion, nous avons vu qu'il est possible d'envoyer votre facture de revenus par courriel
+soit de la méthode manuelle qui utilise votre programme de messagerie électronique personnel ou
+soit avec la méthode automatisée qui utilise le protocole SMTP de votre fournisseur de messagerie électronique.
+
+Pour plus d'informations, veuillez SVP [contacter Finance&nbsp;D par courriel](https://finance-d.com/contact/).
+
+<br/>
+<br/>

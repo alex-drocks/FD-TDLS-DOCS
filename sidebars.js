@@ -7,6 +7,7 @@ module.exports = {
       'bases/ouvrir-dossier',
       'bases/creer-facture-revenus',
       'bases/imprimer-facture-revenus',
+      'bases/envoyer-facture-par-courriel',
       'bases/trouver-vos-factures',
       'bases/supprimer-une-facture',
       'bases/creer-facture-depenses',
