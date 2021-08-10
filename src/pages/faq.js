@@ -33,7 +33,7 @@ export default function Faq() {
             <h3>Le logiciel Finance&nbsp;D est-il vraiment gratuit&nbsp;?</h3>
             <p>
               <strong>Oui</strong>. Le <LogicielFD/> est
-              gratuit à 100% et pour toujours. Il n'y a aucun frais caché ni
+              gratuit à 100&nbsp;% et pour toujours. Il n'y a aucun frais caché ni
               aucune limite. Dans Finance&nbsp;D, tout est vraiment gratuit et
               sans publicité. Vous pouvez donc considérer Finance&nbsp;D
               comme étant un logiciel comptable gratuit.
@@ -80,27 +80,28 @@ export default function Faq() {
             <h3>Quelles sont les spécifications minimales requises pour utiliser le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Vous avez besoin d'un ordinateur qui correspond aux spécifications suivantes:<br/>
-              <strong>Système d'exploitation (OS):</strong>
+              <strong>Système d'exploitation (OS)&nbsp;:</strong>
               {" "}Windows (Windows 10 recommandé).<br/>
               Mac (Mac OS X Catalina ou BigSur recommandés).<br/>
-              <strong>Type du système:</strong> Système d'exploitation 64 bits et processeur x64. Pour Mac, nous
+              <strong>Type du système&nbsp;:</strong> Système d'exploitation 64 bits et processeur x64. Pour Mac, nous
               supportons également le arm64 avec la puce Apple M1.<br/>
-              <strong>Processeur (CPU):</strong> 1 ghz et plus.<br/>
-              <strong>Mémoire (RAM):</strong> 275 mo et plus.<br/>
-              <strong>Espace disque:</strong> 275 mo et plus.<br/>
-              <strong>Carte graphique (GPU):</strong> Aucun besoin particulier, mais une carte graphique peut améliorer
+              <strong>Processeur (CPU)&nbsp;:</strong> 1 Ghz et plus.<br/>
+              <strong>Mémoire (RAM)&nbsp;:</strong> 275 Mo et plus.<br/>
+              <strong>Espace disque&nbsp;:</strong> 275 Mo et plus.<br/>
+              <strong>Carte graphique (GPU)&nbsp;:</strong> Aucun besoin particulier, mais une carte graphique peut
+              améliorer
               la vitesse de l'interface graphique.<br/>
-              <strong>Carte son:</strong> N/A.<br/>
-              <strong>Connexion internet:</strong> Nécessaire seulement pour
-              l'installation et les <Link to="#11">mises à jours</Link>. Le logiciel fonctionne même
+              <strong>Carte son&nbsp;:</strong> N/A.<br/>
+              <strong>Connexion internet&nbsp;:</strong> Nécessaire seulement pour
+              l'installation et les <Link to="#11">mises à jour</Link>. Le logiciel fonctionne même
               hors-ligne (même si vous n'êtes pas connectés à internet).
             </p>
           </Question>
           <Question id={6}>
             <h3>Comment savoir si mon ordinateur est compatible avec le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
-              Trouvez les détails techniques de votre ordinateurs et
-              comparez les avec <Link to="#5">nos spécifications minimales requises</Link>.
+              Trouvez les détails techniques de ordinateur et comparez-les
+              avec <Link to="#5">nos spécifications minimales requises</Link>.
               Voir{" "}
               <a href="https://fr.wikihow.com/conna%C3%AEtre-les-caract%C3%A9ristiques-techniques-de-votre-ordinateur">
                 wikihow.com
@@ -131,7 +132,7 @@ export default function Faq() {
               et les travailleurs autonomes du Québec. Il est également
               possible de l'utiliser pour
               vos finances personnelles mais, le concept est
-              optimisé pour les entreprises québécoises taxées ou non-taxées.
+              optimisé pour les entreprises québécoises taxées ou non&nbsp;taxées.
               Le logiciel est vraiment idéal pour une entreprise enregistrée
               aux taxes du Québec ayant un statut de travailleur autonome.
               Si vous avez besoin de plus de renseignement pour savoir si le logiciel vous conviendrait,
@@ -163,7 +164,7 @@ export default function Faq() {
               De plus, vous pouvez gérer plusieurs dossiers indépendants
               en sélectionnant dans lequel vous voulez travailler au moment d'ouvrir
               le logiciel.
-              Par exemple: deux entreprises, et un dossier personnel.
+              Par exemple: deux entreprises et un dossier personnel.
             </p>
           </Question>
         </QuestionRow>
@@ -208,7 +209,7 @@ export default function Faq() {
               programmeur et technicien comptable chez{" "}
               <Link to="https://gestiondesroches.com/a-propos">Gestion Desroches Inc.</Link>{" "}
               Il est constamment exposé aux besoins réels des travailleurs autonomes
-              de par son travail en tenue de livres. Et il est également passionné
+              grâce à son travail en tenue de livres. Et il est également passionné
               pour la programmation. C'est un mélange parfait pour concevoir un logiciel
               comptable efficace et facile à utiliser.
             </p>
@@ -232,9 +233,9 @@ export default function Faq() {
               Le sommaire de taxes du logiciel <NoWrap>Finance D</NoWrap> est conçu pour la méthode de déclaration de
               taxes régulière.
               Cette méthode est généralement plus payante pour les travailleurs autonomes.{" "}
-              <NoWrap>Finance D</NoWrap> vous fourni l'information nécessaire pour remplir votre déclaration de taxes
+              <NoWrap>Finance D</NoWrap> vous donne l'information nécessaire pour remplir votre déclaration de taxes
               régulière dans le formulaire FPZ-500 du Gouvernement du Québec.
-              Par contre, rien ne vous empêche d'utiliser le logiciel si vous voulez préférez la méthode simplifiée
+              Par contre, rien ne vous empêche d'utiliser le logiciel si vous préférez la méthode simplifiée
               des déclarations de taxes. Il n'y aura simplement pas de modèle pré-rempli dans le sommaire de taxes
               pour vous indiquer quoi écrire dans votre déclaration de TPS/TVQ.
             </p>
@@ -258,7 +259,7 @@ export default function Faq() {
               Mais, l'aspect moins idéal est qu'il n'y a pas de synchronisation en temps réel
               lorsque plusieurs personnes sont connectées sur le même dossier Finance&nbsp;D en même temps.
               <br/>
-              Si vous avez absolument besoin du partage en temps réel
+              Si vous avez absolument besoin du partage en temps réel,
               car plusieurs membres de votre équipe va travailler en même temps,
               il est présentement impossible de le faire efficacement.
             </p>
@@ -280,13 +281,13 @@ export default function Faq() {
             <h3>Pourquoi ne pas avoir créé une application web plutôt qu'un logiciel pour ordinateur&nbsp;?</h3>
             <p>Nous avons créé un logiciel plutôt qu'une application web pour trois raisons&nbsp;:</p>
             <ol>
-              <li>Car les applications webs sont plus couteuses.
+              <li>Car les applications web sont plus couteuses.
                 Ce serait donc impossible de faire tout ce que le logiciel Finance&nbsp;D
                 fait sans devoir vous charger pour l'utilisation (le logiciel ne serait pas gratuit).
               </li>
               <li>Car les applications web ne sont pas encore idéales pour des interfaces
                 qui ont plusieurs fenêtres différentes ouvertes en même temps.
-                Par exemple, dans le logiciel vous pouvez avoir la fenêtre
+                Par exemple, dans le logiciel, vous pouvez avoir la fenêtre
                 de recherche de factures et vos résultats financiers
                 côte-à-côte avec l'interface principale.
               </li>
@@ -332,12 +333,14 @@ export default function Faq() {
               commercialisé. D'ailleurs, il arrive souvent qu'on nous demande pourquoi nous ne le vendons pas...
               Donc, ce que nous faisons, soyez certain que nous le faisons comme si le logiciel était payant.
               La qualité, l'excellence, la simplicité et l'efficacité sont les aspects fondamentaux qui dirigent
-              le projet. Si vous n'êtes pas satisfaits, nous ne sommes pas satisfaits non plus car ce logiciel est comme
-              notre bébé. En d'autres mots, le <LogicielFD></LogicielFD> est un projet de la plus haute importance pour
+              le projet. Si vous n'êtes pas satisfaits, nous ne sommes pas satisfaits non plus, car ce logiciel est
+              comme notre bébé. En d'autres mots, le <LogicielFD></LogicielFD> est un projet de la plus haute importance
+              pour
               l'entreprise Finance&nbsp;D. C'est aussi un logiciel qui défini notre marque en tant qu'entreprise. Nous
-              avons donc tout intérêt à fournir un produit de la plus haute qualité qui soit capable d'impressioner
+              avons donc tout intérêt à fournir un produit de la plus haute qualité qui soit capable d'impressionner
               les utilisateurs. Ainsi, vous pourrez sans doute remarquer que le logiciel Finance&nbsp;D offre certaines
-              fonctions qui sont meilleures que dans des logiciels payants. Bien sûr notre logiciel n'est pas parfait et
+              fonctions qui sont meilleures que dans des logiciels payants. Bien sûr, notre logiciel n'est pas parfait
+              et
               nous ne voulons pas discréditer les autres logiciels. Mais, sachez que la gratuité est une bonne nouvelle
               et non un signe de faible qualité.
             </Question>
