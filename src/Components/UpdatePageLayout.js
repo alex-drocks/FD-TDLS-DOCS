@@ -32,8 +32,8 @@ export default function UpdatePageLayout({version, children}) {
         <h2><a style={{textDecoration: "underline"}} href="https://finance-d.com">Finance&nbsp;D&nbsp;— Tenue de livres
           simplifiée</a></h2>
         <p>
-          Pour signaler un problème, nous faire part de vos commentaires, ou pour
-          toutes questions, veuillez SVP nous écrire à&nbsp;
+          Pour signaler un problème, donner votre avis, ou pour
+          toutes questions, veuillez SVP contacter Alexandre Desroches en écrivant un courriel à&nbsp;
           <a href="mailto:admin@finance-d.com?subject=Logiciel Tenue de livres simplifiée" title="Écrivez-nous">
             <i>admin@finance-d.com</i>.
           </a>
@@ -48,9 +48,10 @@ export default function UpdatePageLayout({version, children}) {
       {
         version
           ? <div className="container">
-            <p>Sentez-vous bien à l'aise de nous faire part de vos commentaires
-              en nous écrivant un courriel à l'adresse suivante&nbsp;:
-              admin@finance-d.com. Ce sera un plaisir de vous lire et de pouvoir vous répondre.
+            <p>Vos commentaires sont les bienvenus&nbsp;!
+              Écrivez à l'adresse suivante&nbsp;:
+              admin@finance-d.com.
+              Ce sera un plaisir de vous lire et de pouvoir vous répondre.
             </p>
             <LinkButton to="/updates">Voir l'historique des mises à jour antérieures &rarr;</LinkButton>
             <br/>
