@@ -37,7 +37,7 @@ export default function UpdatePageLayout({version, children}) {
           <a href="mailto:admin@finance-d.com?subject=Logiciel Tenue de livres simplifiée" title="Écrivez-nous">
             <i>admin@finance-d.com</i>.
           </a>
-          &nbsp;Ce sera plaisir de vous répondre le plus rapidement possible.
+          &nbsp;Ce sera un plaisir de vous répondre le plus rapidement possible.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ export default function UpdatePageLayout({version, children}) {
         version
           ? <div className="container">
             <p>Vos commentaires sont les bienvenus&nbsp;!
-              Écrivez à l'adresse suivante&nbsp;:
+              Pour communiquer, veuillez svp écrire un courriel à l'adresse suivante&nbsp;:
               admin@finance-d.com.
               Ce sera un plaisir de vous lire et de pouvoir vous répondre.
             </p>
@@ -60,6 +60,7 @@ export default function UpdatePageLayout({version, children}) {
               logiciel &rarr;</Link>
             <br/>
             <br/>
+            <a href="https://finance-d.com/soutenir/">Soutenir le projet du logiciel &rarr;</a>
             <br/>
             <br/>
             <br/>

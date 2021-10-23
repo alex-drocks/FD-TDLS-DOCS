@@ -40,21 +40,10 @@ export default function Videos() {
             </p>
 
             <VideoCard
-              date="22 mai 2021"
-              url="https://youtu.be/HI_sK-5L7ZM"
-              shortTitle="Télécharger et installer le logiciel"
-              fullTitle="Finance D  - Télécharger et installer le logiciel Tenue de livres simplifiée sur votre ordinateur"
-              description="Une capture d'écran pour démontrer comment télécharger et installer le logiciel Finance D - Tenue de livres simplifiée sur votre ordinateur.
-
-L'exemple utilise un ordinateur Windows, mais le processus est aussi facile sur Mac."
-              duration="1:54"
-            />
-
-            <VideoCard
               date="2021-05-10"
               url="https://youtu.be/8y2vP_2NsmI"
               duration="6:56"
-              shortTitle="Personnaliser les catégories financières de revenus et dépenses"
+              shortTitle="Personnaliser vos catégories financières de revenus et dépenses"
               fullTitle="Finance D - Personnaliser les catégories financières de revenus et de dépenses"
               description="Démonstration pour modifier, supprimer et ajouter vos catégories financières
               de revenus et de dépenses dans le logiciel Finance D - Tenue de livres simplifiée.
@@ -65,21 +54,9 @@ L'exemple utilise un ordinateur Windows, mais le processus est aussi facile sur 
             />
 
             <VideoCard
-              date="2021-05-04"
-              url="https://youtu.be/p39y1UDnnms"
-              duration="10:12"
-              shortTitle="Activer le mode d'enregistrement cloud"
-              fullTitle="Finance D - Activer le mode d'enregistrement dans un cloud personnel"
-              description="Démonstration étape par étape pour activer le mode d'enregistrement du logiciel Finance&nbsp;D
-              dans un cloud personnel tel que OneDrive, Google Drive, Dropbox, etc. Il s'agit d'une fonction qui permet
-              de partager un dossier de tenue de livres de Finance D avec un ou plusieurs autres ordinateurs
-              grâce à votre fournisseur de cloud personnel."
-            />
-
-            <VideoCard
               date="31 mars 2021"
               url="https://youtu.be/ZHCQ9a6-UsU"
-              shortTitle="Suivi des paiements de factures"
+              shortTitle="Comment faire le suivi des paiements de vos factures"
               fullTitle="Suivi des paiements pour vos factures dans le logiciel Finance D - Tenue de livres simplifiée"
               description="Ce vidéo démontre comment le suivi des paiements fonctionne dans le logiciel Finance D. Vous allez voir que c'est pratique comme sur une facture papier. Avec Finance D vous pouvez gérer les soldes dû sur vos factures de revenus et de dépenses de manière efficace."
               duration="4:37"
