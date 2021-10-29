@@ -75,7 +75,7 @@ doit manuellement être ajouté à ce courriel.
 <Image img={require("../../static/img/bases/envoyer-le-courriel-manuellement.png")}/>
 <br/>
 
-## Option avancée : Configurer l'envoi des courriels avec SMTP
+## Option avancée : Configurer l'envoi des courriels avec SMTP.
 
 Si vous voulez automatiser l'envoi du courriel en utilisant le protocole SMTP de votre fournisseur de messagerie électronique,
 vous allez devoir configurer manuellement les paramètres requis. Or, chaque fournisseur est unique ce qui rend la complexité
@@ -99,6 +99,41 @@ suivez les étapes suivantes :
 7. Finalement, cliquez sur le bouton "Envoyer le courriel".
 
 Une notification au bas de la fenêtre vous indiquera si l'envoi par SMTP a été un succès ou s'il y a eu une erreur.
+
+
+### Comment régler le problème d'envoi par courriel avec Gmail&nbsp;?
+
+Quand votre adresse courriel provient de Google, donc une adresse **Gmail** comme `hello@gmail.com`,
+vous allez rencontrer un problème inévitable pour l'envoi de vos factures par SMTP.
+
+Il y a deux solutions possibles, mais seulement celle qui est la meilleure sera décrite ci-dessous.
+
+#### 1. Créer un mot de passe d'application dans votre compte Google.
+
+Le mieux pour réussir à accomplir cette étape est de consulter le guide officiel écrit par Google à l'adresse
+suivante&nbsp;: https://support.google.com/mail/answer/185833?hl=fr
+
+En résumé, il faut créer un mot de passe spécifique pour envoyer vos factures par courriel avec votre adresse Gmail,
+dans Finance&nbsp;D. L'interface Google en date du 2021-10-29 ressemblait à l'image ci-dessous&nbsp;:
+
+<Image img={require("../../static/img/bases/gmail-generate-app-password.png")}/><br/>
+
+#### 2. Insérer ce mot de passe d'application dans les configurations de Finance&nbsp;D.
+
+Lorsque Google vous a donné le mot de passe spécifique que vous voulez attribuer à votre adresse Gmail, copiez-le
+et insérez-le dans les configurations SMTP de Finance&nbsp;D, comme dans les images ci-dessous&nbsp;:
+
+<Image img={require("../../static/img/bases/gmail-app-password-example.png")}/><br/>
+PS: N'essayez pas d'utiliser le mot de passe dans l'image, il a été supprimé après avoir fait l'exemple :)
+<br/>
+<br/>
+
+<Image img={require("../../static/img/bases/gmail-insert-app-password.png")}/><br/>
+
+Enfin, vous pouvez donc maintenant enregistrer vos configurations et envoyer vos factures automatiquement à partir
+de Finance&nbsp;D. (Vous n'aurez plus besoin de faire ces étapes sauf si vous changez votre mot de passe Gmail).
+
+
 
 <br/>
 <br/>
