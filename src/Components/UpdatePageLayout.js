@@ -49,9 +49,13 @@ export default function UpdatePageLayout({version, children}) {
         version
           ? <div className="container">
             <p>Vos commentaires sont les bienvenus&nbsp;!
-              Pour communiquer, veuillez svp écrire un courriel à l'adresse suivante&nbsp;:
-              admin@finance-d.com.
-              Ce sera un plaisir de vous lire et de pouvoir vous répondre.
+              <br/>
+              <br/>
+              Pour communiquer directement avec Alexandre Desroches, veuillez svp écrire un courriel à l'adresse
+              suivante&nbsp;: admin@finance-d.com.
+              <br/>
+              <br/>
+              Ce sera un plaisir de vous lire et de pouvoir vous répondre dans les plus brefs délais.
             </p>
             <LinkButton to="/updates">Voir l'historique des mises à jour antérieures &rarr;</LinkButton>
             <br/>
@@ -60,7 +64,8 @@ export default function UpdatePageLayout({version, children}) {
               logiciel &rarr;</Link>
             <br/>
             <br/>
-            <a href="https://finance-d.com/soutenir/">Soutenir le projet du logiciel &rarr;</a>
+            <a href="https://finance-d.com/soutenir/">Soutenir le logiciel Finance&nbsp;D avec une contribution
+              volontaire &rarr;</a>
             <br/>
             <br/>
             <br/>
