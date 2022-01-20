@@ -44,13 +44,19 @@ export default function Faq() {
             <p>
               Le <LogicielFD/> est gratuit, car il a été conçu pour rendre service aux Québécois et Québécoises.
               Le développement du logiciel est possible grâce à une passion pour la programmation
-              et le désir sincère d'aider les travailleurs autonomes à avoir accès à un logiciel comptable simple et
-              efficace
-              pour leur comptabilité quotidienne. C'est une réalité assez forte pour
-              motiver à offrir le logiciel gratuitement.
+              et la volonté d'aider les travailleurs autonomes à avoir accès à un logiciel comptable simple et
+              efficace pour leur comptabilité quotidienne.
+              De plus, le logiciel sert de preuve des capacités de l'entreprise <NoWrap>Finance D</NoWrap> à offrir
+              des solutions pratiques à des défis spécifiques de la comptabilité. Ce produit est donc un pilier pour
+              la réputation de <NoWrap>Finance D</NoWrap>.<br/>
+              En d'autres mots, vous pouvez voir ce logiciel comme le fruit d'une passion
+              pour la programmation, le désir d'aider et une preuve de fiabilité de l'entreprise.<br/>
               Certes, il est possible qu'un autre produit créé par l'entreprise <NoWrap>Finance D</NoWrap> soit
               payant un jour, mais le logiciel de tenue de livres simplifiée restera gratuit et maintenu avec la
-              meilleure qualité.
+              meilleure qualité.<br/>
+              Enfin, si vous voulez contribuer financièrement pour nous aider en retour, ou simplement pour dire merci,
+              il est possible de faire un don via notre page web à l'adresse suivante&nbsp;:&nbsp;
+              <a href="https://finance-d.com/soutenir/">https://finance-d.com/soutenir/</a>.
             </p>
           </Question>
         </QuestionRow>
@@ -375,6 +381,18 @@ export default function Faq() {
                 et de l'installer sur votre ordinateur (Windows ou Mac). Ensuite, votre entreprise pourra
                 facturer des clients, enregistrer des dépenses, etc. C'est aussi simple que cela.{" "}
                 <Link to="https://finance-d.com/telecharger/">Obtenir le logiciel Finance&nbsp;D</Link>
+              </p>
+            </Question>
+            <Question id={26}>
+              <h3>Le logiciel Finance&nbsp;D va-t-il cesser de fonctionner puisqu'il est gratuit&nbsp;?</h3>
+              <p>
+                Non. Une fois téléchargé dans votre ordinateur, le <LogicielFD/>, n'a pas de date d'expiration.
+                En effet, puisqu'il ne s'agit pas d'une application web qui dépendrait d'internet, le logiciel va
+                continuer de fonctionner même s'il n'était plus disponible pour téléchargement gratuit.
+                Bien sûr, il n'y a aucun plan pour que le logiciel ne soit plus offert gratuitement, mais sachez que
+                même dans l'éventualité où cela arriverait par un malheur quelconque, le logiciel continuera de
+                fonctionner sur votre ordinateur peu importe ce qui arrive. En d'autres mots, vous n'avez pas à vous
+                inquiéter à propos de la longévité d'utilisation du logiciel même s'il est gratuit.
               </p>
             </Question>
           </QuestionRow>
