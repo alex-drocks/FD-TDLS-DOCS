@@ -41,6 +41,7 @@ module.exports = {
     "Gestion des dossiers de tenue de livres": [
       "gestion-dossiers/intro-gestion-dossiers",
       "gestion-dossiers/memoriser-mot-de-passe",
+      "gestion-dossiers/changer-mot-de-passe",
       "gestion-dossiers/copies-de-sauvegarde",
       "gestion-dossiers/modifier-nom-dossier",
       "gestion-dossiers/supprimer-dossier",
@@ -48,7 +49,7 @@ module.exports = {
       "gestion-dossiers/mode-enregistrement-cloud",
       "gestion-dossiers/import-json",
       "gestion-dossiers/export-json",
-      "gestion-dossiers/archiver-un-dossier"
+      "gestion-dossiers/archiver-un-dossier",
     ],
     "Options, préférences et paramètres": [
       "options/introduction-aux-options",

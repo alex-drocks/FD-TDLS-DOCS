@@ -57,7 +57,7 @@ export default function UpdatePageLayout({version, children}) {
               <br/>
               Ce sera un plaisir de vous lire et de pouvoir vous répondre dans les plus brefs délais.
             </p>
-            <LinkButton to="/updates">Voir l'historique des mises à jour antérieures &rarr;</LinkButton>
+            <LinkButton to="/updates">Voir toute l'historique des mises à jour antérieures &rarr;</LinkButton>
             <br/>
             <br/>
             <Link to="/docs/bases/prise-en-main-du-logiciel/">Consultez la documentation du

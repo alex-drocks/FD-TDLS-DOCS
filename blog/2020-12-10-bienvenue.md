@@ -3,7 +3,7 @@ slug: bienvenue
 title: Bienvenue !
 author: Alexandre Desroches
 author_title: Développeur de Finance D
-author_url: https://github.com/alex-drocks
+author_url: https://alexdesroches.com
 author_image_url: https://avatars3.githubusercontent.com/u/69808183?s=460&u=209132f93efd38e59b62bd617a6d4b4ebb14e5e3&v=4
 tags: [nouveau]
 ---

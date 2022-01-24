@@ -44,7 +44,7 @@ export default function Faq() {
             <p>
               Le <LogicielFD/> est gratuit, car il a été conçu pour rendre service aux Québécois et Québécoises.
               Le développement du logiciel est possible grâce à une passion pour la programmation
-              et la volonté d'aider les travailleurs autonomes à avoir accès à un logiciel comptable simple et
+              unie avec la volonté d'aider les travailleurs autonomes à avoir accès à un logiciel comptable simple et
               efficace pour leur comptabilité quotidienne.
               De plus, le logiciel sert de preuve des capacités de l'entreprise <NoWrap>Finance D</NoWrap> à offrir
               des solutions pratiques à des défis spécifiques de la comptabilité. Ce produit est donc un pilier pour
