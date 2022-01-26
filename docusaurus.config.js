@@ -118,14 +118,11 @@ module.exports = {
       },
       copyright: `© ${new Date().getFullYear()} Finance D`,
     },
-    gtag: {
-      trackingID: 'G-8N37CT6CMQ',
-      anonymizeIP: false,
-    },
     algolia: {
       appId: 'I9B5YVJPW1',
       apiKey: '146d50f718ad77ef9f491999239a2d22',
       indexName: 'FD-TDLS-DOCS',
+      contextualSearch: false,
       // Optional: Algolia search parameters
     },
   },
@@ -136,6 +133,10 @@ module.exports = {
         // Will be passed to @docusaurus/plugin-content-docs (false to disable)
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+        },
+        gtag: {
+          trackingID: 'G-8N37CT6CMQ',
+          anonymizeIP: false,
         },
 
         // Will be passed to @docusaurus/plugin-content-blog (false to disable)

@@ -86,9 +86,9 @@ export default function Faq() {
             <h3>Quelles sont les spécifications minimales requises pour utiliser le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Vous avez besoin d'un ordinateur qui correspond aux spécifications suivantes:<br/>
-              <strong>Système d'exploitation (OS)&nbsp;:</strong>
-              {" "}Windows (Windows 10 recommandé).<br/>
-              Mac (Mac OS X Catalina ou BigSur recommandés).<br/>
+              <strong>Système d'exploitation (OS)&nbsp;:</strong><br/>
+              Windows 7/8/10/11 (Windows 10+ recommandé).<br/>
+              Mac OS X 10.11 El Capitan (Mac OS X Catalina+ recommandé).<br/>
               <strong>Type du système&nbsp;:</strong> Système d'exploitation 64 bits et processeur x64. Pour Mac, nous
               supportons également le arm64 avec la puce Apple M1.<br/>
               <strong>Processeur (CPU)&nbsp;:</strong> 1 Ghz et plus.<br/>
@@ -189,6 +189,14 @@ export default function Faq() {
               de la mise à jour. Notez que le logiciel vérifie les mises à jour seulement quand
               vous l'ouvrez. Il n'y aura pas de tâche qui s'exécute en arrière-plan
               si vous n'ouvrez pas le logiciel.
+              <br/>
+              <strong>S'il arrive que votre logiciel ne se mette pas à jour automatiquement</strong>, il est possible
+              que ce soit dû
+              à un manque d'espace dans votre disque dur. Ou, possiblement à cause d'une incompatibilité avec une vielle
+              version de Mac ou Windows par rapport au nouveau moteur interne du logiciel. Si c'est votre cas,
+              vous pouvez installer manuellement la plus récente version en téléchargement le fichier d'installation à
+              l'adresse officielle suivante:{" "}
+              <Link to="https://finance-d.com/telecharger/">https://finance-d.com/telecharger</Link>.
             </p>
           </Question>
           <Question id="12">
