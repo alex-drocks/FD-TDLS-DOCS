@@ -27,6 +27,19 @@ import v098_tooltips from '../../../static/img/updates/v098_tooltips.png';
 export default function Index() {
   return (
     <UpdatePageLayout>
+      <VersionUpdate version={"1.6.2"} date={"2022-01-27"}>
+
+        <BugFixes>
+          <Item>
+            Correction d'un bug qui a été introduit dans la version 1.6.0 seulement sur les ordinateurs Mac.
+            En fait, la fenêtre de recherche "Mes factures" restait invisible dû aux changements apportés avec
+            la mémorisation du positionnement de cette fenêtre.
+            La v1.6.2 est donc un simple correctif pour solutionner ce problème.
+          </Item>
+        </BugFixes>
+
+      </VersionUpdate>
+
       <VersionUpdate version={"1.6.0"} date={"2022-01-23"}>
         <NewFeatures>
           <Item>
