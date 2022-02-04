@@ -219,13 +219,13 @@ export default function Faq() {
             <h3>Qui est responsable du développement du logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Le <LogicielFD/>, est développé par{" "}
-              <Link to="https://www.linkedin.com/in/alexandre-desroches-dev/">Alexandre Desroches</Link>,
+              <Link to="https://alexdesroches.com">Alexandre Desroches</Link>,
               programmeur et technicien comptable chez{" "}
               <Link to="https://gestiondesroches.com/a-propos">Gestion Desroches Inc.</Link>{" "}
               Il est constamment exposé aux besoins réels des travailleurs autonomes
               grâce à son travail en tenue de livres. Et il est également passionné
               pour la programmation. C'est un mélange parfait pour concevoir un logiciel
-              comptable efficace et facile à utiliser.
+              comptable efficace et facile à utiliser dans le contexte du Québec.
             </p>
           </Question>
           <Question id="14">
@@ -312,15 +312,15 @@ export default function Faq() {
             </ol>
           </Question>
           <Question id={20}>
-            <h3>Est-ce que le logiciel peut produire mon Bilan financier&nbsp;?</h3>
+            <h3>Est-ce que le logiciel peut produire mon Bilan financier et gérer mes actifs&nbsp;?</h3>
             <p>
               <strong>Non.</strong>{" "}
               Il n’y a pas de Bilan dans Finance&nbsp;D, car cette portion de la comptabilité est trop avancée pour
-              correspondre à l’objectif de la simplicité.
+              correspondre à l’objectif de la simplicité du logiciel.
               En effet, dès que l’on doit gérer les actifs et passifs, cela implique tout l’aspect complexe de la
-              comptabilité qui entre dans le territoire de l'expertise comptable.
+              comptabilité qui entre dans le territoire de l'expertise d'un comptable professionnel.
               Donc, la gestion du Bilan est volontairement exclue du logiciel pour rester focalisé sur le but de
-              simplicité.
+              simplicité, avec une emphase sur le contexte des travailleurs autonomes.
             </p>
           </Question>
           <QuestionRow>
