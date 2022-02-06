@@ -342,13 +342,13 @@ export default function Faq() {
               </p>
             </Question>
             <Question id={22}>
-              <h3>Est-ce que logiciel Finance&nbsp;D est de bonne qualité même s'il est gratuit&nbsp;?</h3>
+              <h3>Est-ce que le logiciel Finance&nbsp;D est de bonne qualité même s'il est gratuit&nbsp;?</h3>
               À notre humble avis, le <LogicielFD/> est d'une qualité exceptionnelle et pourrait très bien être
               commercialisé. D'ailleurs, il arrive souvent qu'on nous demande pourquoi nous ne le vendons pas...
               Donc, ce que nous faisons, soyez certain que nous le faisons comme si le logiciel était payant.
               La qualité, l'excellence, la simplicité et l'efficacité sont les aspects fondamentaux qui dirigent
               le projet. Si vous n'êtes pas satisfaits, nous ne sommes pas satisfaits non plus, car ce logiciel est
-              comme notre bébé. En d'autres mots, le <LogicielFD></LogicielFD> est un projet de la plus haute importance
+              comme notre bébé. En d'autres mots, le <LogicielFD/> est un projet de la plus haute importance
               pour
               l'entreprise Finance&nbsp;D. C'est aussi un logiciel qui défini notre marque en tant qu'entreprise. Nous
               avons donc tout intérêt à fournir un produit de la plus haute qualité qui soit capable d'impressionner
