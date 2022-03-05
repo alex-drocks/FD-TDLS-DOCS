@@ -32,6 +32,7 @@ module.exports = {
       'transactions/convertir-usd-cad',
       'transactions/modeles-de-transactions-et-produits',
       'transactions/ajouter-rabais-escompte-promotion',
+      'transactions/modeles-de-factures-recurrentes',
     ],
     "Catégories financières": [
       'categories/intro-categories-financieres',
