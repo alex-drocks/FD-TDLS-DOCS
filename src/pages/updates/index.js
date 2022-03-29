@@ -27,6 +27,45 @@ import v098_tooltips from '../../../static/img/updates/v098_tooltips.png';
 export default function Index() {
   return (
     <UpdatePageLayout>
+      <VersionUpdate version={"1.8.1"} date={"2022-03-29"}>
+
+        <Improvements>
+          <Item>
+            <strong>Amélioration des sélecteurs de dates</strong> en lien avec les correctifs apportés
+            (voir corrections de bugs ci-bas).
+            Il est maintenant possible d'écrire les mois Février, Août et Décembre avec et sans accents.
+            Ils seront reconnus correctement.
+            Donc par exemple, il est maintenant possible d'écrire "1 fev", "23 aout" "30 de" pour
+            sélectionner les dates de n'importe quel sélecteur de date.
+          </Item>
+        </Improvements>
+
+        <BugFixes>
+          <Item>
+            Correction de la nouvelle fonction <strong>"Réinitialiser la date de facture
+            à la date d'aujourd'hui"</strong>, afin qu'elle
+            n'affecte plus la date de facture d'une facture existante (seule les nouvelles factures seront affectées).
+          </Item>
+          <Item>
+            <strong>Correction des dates qui incluaient le mois de "Février"</strong>. Le sélecteur de date
+            utilisé dans chaque endroit du logiciel interprétait mal la date de "Février"
+            et la remplaçait par le mois actuel.
+          </Item>
+          <Item>
+            <strong>Correction des dates de trimestres fiscaux</strong> dans les sélecteurs de période de dates
+            pour les rapports et la recherche.
+            Les dates de début de trimestres fiscaux étaient mal calculées dans certains cas et produisaient
+            des périodes erronées.
+            <br/>
+            <br/>
+            <Image img={require("../../../static/img/updates/v180/fixed-trim-fiscal.png")}/>
+            <br/>
+            <br/>
+          </Item>
+        </BugFixes>
+
+      </VersionUpdate>
+
       <VersionUpdate version={"1.8.0"} date={"2022-03-28"}>
 
         <NewFeatures>
@@ -135,7 +174,6 @@ export default function Index() {
         </BugFixes>
 
       </VersionUpdate>
-
 
       <VersionUpdate version={"1.7.0"} date={"2022-03-16"}>
 
