@@ -32,7 +32,7 @@ export default function UpdatePageLayout({version, children}) {
         <h2><a style={{textDecoration: "underline"}} href="https://finance-d.com">Finance&nbsp;D&nbsp;— Tenue de livres
           simplifiée</a></h2>
         <p>
-          Pour signaler un problème, donner votre avis, ou pour
+          Pour signaler un problème à propos du logiciel, donner votre avis, ou pour
           toutes questions, veuillez SVP contacter Alexandre Desroches en écrivant un courriel à&nbsp;
           <a href="mailto:admin@finance-d.com?subject=Logiciel Tenue de livres simplifiée" title="Écrivez-nous">
             <i>admin@finance-d.com</i>.

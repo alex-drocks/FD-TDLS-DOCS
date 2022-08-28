@@ -9,10 +9,14 @@ function VersionUpdate({version, date, children}) {
         <div className="row">
           <div className={clsx('col col--12')}>
             <div>
-              <h3 className={styles.versionNumber}>Version {version}</h3>
+              <h3 className={styles.versionNumber}>
+                <a href={`https://docs.finance-d.com/logiciel-tenue-de-livres-simplifiee/updates/v${version}/`}>
+                  📌&nbsp;Version {version}
+                </a>
+              </h3>
               <p className={styles.versionReleaseDate}>{
                 date
-                  ? "Publiée le " + date
+                  ? "Mise à jour publiée le " + date
                   : "Cette version n'est pas encore publiée, elle est en cours de développement."
               }</p>
             </div>
