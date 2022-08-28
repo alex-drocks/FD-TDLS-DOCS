@@ -21,7 +21,7 @@ export default function Index() {
 
         <NewFeatures>
           <Item>
-            Ajouts de nouvelles d'options d'affichage et de calcul pour la fenêtre de l'État des résultats.
+            Ajouts de nouvelles options d'affichage et de calcul pour la fenêtre de l'État des résultats.
           </Item>
         </NewFeatures>
 
