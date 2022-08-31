@@ -18,7 +18,8 @@ const features = [
     description: (
       <>
         Apprenez comment mieux utiliser le logiciel <NoWrap>Finance D</NoWrap> - Tenue de livres simplifiée
-        en consultant notre <Link to="/docs/bases/prise-en-main-du-logiciel">documentation</Link>.
+        en consultant notre page <Link to="/docs/bases/prise-en-main-du-logiciel">Documentation et tutoriels</Link>.
+        Il s'agit de guides faciles à lire.
       </>
     ),
   },

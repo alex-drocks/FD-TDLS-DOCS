@@ -29,7 +29,7 @@ module.exports = {
         {
           to: '/docs/bases/prise-en-main-du-logiciel',
           activeBasePath: 'docs',
-          label: 'Documentation',
+          label: 'Documentation et tutoriels',
           position: 'left',
         },
         {
