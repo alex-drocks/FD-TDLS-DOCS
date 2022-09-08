@@ -33,6 +33,12 @@ export default function Index() {
           <Item>
             Ajouts de nouvelles options d'affichage et de calcul pour la fenêtre de l'État des résultats.
           </Item>
+          <Item>
+            Fin du support pour <strong>Windows 7</strong>.{" "}
+            <a href="https://docs.finance-d.com/logiciel-tenue-de-livres-simplifiee/blog/version-finale-finance-d-pour-windows-7/">
+              En savoir plus &rarr;
+            </a>
+          </Item>
         </NewFeatures>
 
         <Improvements>
