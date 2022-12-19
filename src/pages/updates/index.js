@@ -100,7 +100,7 @@ export default function Index() {
                 <BugFixes>
                     <Item>
                         Correction de bug dans la fenêtre de l'état des résultats quand on choisissait la période de
-                        date nulle, les date minimum et maximum n'étaient pas bien définie.
+                        date nulle, les date minimum et maximum n'étaient pas bien définies.
                     </Item>
                     <Item>
                         Correction du changement de date minimum et maximum dans la fenêtre de recherche de facture.
