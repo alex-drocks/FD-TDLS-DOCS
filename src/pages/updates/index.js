@@ -61,10 +61,14 @@ export default function Index() {
                         son fonctionnement à long terme. Nous avons estimé mieux de ne plus supporter cette fonction.
                         Dorénavant, le bouton va ouvrir la page ClicSéqur mais il n'y aura plus de remplissage
                         automatique comme avant.
+                        <Image img={require("../../../static/img/updates/v191/clic-sequr.png")}/>
                     </Item>
                     <Item>
-                        Retour arrière sur la version du moteur du logiciel pour que les ordinateurs avec
-                        <strong>Windows 7</strong> redeviennent compatibles avec le logiciel.
+                        Retour arrière sur la version du moteur du logiciel pour que les ordinateurs avec Windows 7
+                        redeviennent compatibles avec le logiciel.<br/>
+                        <a href="https://docs.finance-d.com/logiciel-tenue-de-livres-simplifiee/blog/retour-de-la-compatibilite-avec-windows-7/">
+                            En savoir plus
+                        </a>
                     </Item>
                 </NewFeatures>
 
