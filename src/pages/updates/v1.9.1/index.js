@@ -21,6 +21,10 @@ export default function Index() {
 
                 <NewFeatures>
                     <Item>
+                        Ajout de la fonctionnalité d'exporter tous vos contacts de Finance D dans un fichier Excel.
+                        <Image img={require("../../../../static/img/updates/v191/export-contacts-excel.png")}/>
+                    </Item>
+                    <Item>
                         Ajout d'une icône d'étampe "Payé" sur les facture de revenus imprimables dont le solde est
                         complètement payé. Ceci est optionnel et peut donc être désactivé au besoin.
                         <Image img={require("../../../../static/img/updates/v191/etampe-payé.png")}/>
@@ -40,7 +44,8 @@ export default function Index() {
                         <Image img={require("../../../../static/img/updates/v191/conversion-devises.png")}/>
                     </Item>
                     <Item>
-                        Retrait de la fonctionnalité qui permettait de remplir automatiquement les taxes sur ClicSéqur
+                        <strong>Retrait</strong> de la fonctionnalité qui permettait de remplir automatiquement les
+                        taxes sur ClicSéqur
                         de Revenu Québec. Cette option bien qu'extrêmement pratique est trop dépendante du site web
                         de Revenu Québec, ce qui rend le maintient du logiciel fragile et ne permet pas de garantir
                         son fonctionnement à long terme. Nous avons estimé mieux de ne plus supporter cette fonction.
@@ -67,7 +72,8 @@ export default function Index() {
                     <Item>
                         Ajout d'un tooltip d'explication pour laquelle le bouton exporter vers Excel n'est pas toujours
                         disponible dans la fenêtre de recherche de factures.
-                        <Image img={require("../../../../static/img/updates/v191/explication-excel-export-disabled.png")}/>
+                        <Image
+                            img={require("../../../../static/img/updates/v191/explication-excel-export-disabled.png")}/>
                     </Item>
                     <Item>
                         La sélection par défaut pour le maximum de factures trouvées dans les résultats de la fenêtre
