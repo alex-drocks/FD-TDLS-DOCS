@@ -35,13 +35,13 @@ export default function Index() {
                         <Image img={require("../../../static/img/updates/v191/export-contacts-excel.png")}/>
                     </Item>
                     <Item>
-                        Ajout d'une icône d'étampe "Payé" sur les facture de revenus imprimables dont le solde est
+                        Ajout d'une icône d'étampe "Payé" sur les factures de revenus imprimables dont le solde est
                         complètement payé. Ceci est optionnel et peut donc être désactivé au besoin.
                         <Image img={require("../../../static/img/updates/v191/etampe-facture-paye.png")}/>
                     </Item>
                     <Item>
                         Ajout d'une icône permettant d'accéder rapidement aux options des numéros de factures de revenus
-                        lorsque la valeur du numéro de facture n'est pas dans la séquence habituelle.
+                        lorsque la valeur du numéro de facture n'est pas dans la séquence habituelle et que le message d'avertissement apparaît.
                         <Image img={require("../../../static/img/updates/v191/options-numero-facture.png")}/>
                     </Item>
                     <Item>
@@ -62,16 +62,16 @@ export default function Index() {
                         Dorénavant, le bouton va ouvrir la page ClicSéqur mais il n'y aura plus de remplissage
                         automatique comme avant.
                     </Item>
+                    <Item>
+                        Retour arrière sur la version du moteur du logiciel pour redonner que les ordinateurs avec
+                        <strong>Windows 7</strong> redeviennent compatibles avec le logiciel.
+                    </Item>
                 </NewFeatures>
 
                 <Improvements>
                     <Item>
                         Améliorations de certains styles de la page d'accueil / connexion du logiciel pour mettre en
                         valeur les actions disponibles.
-                    </Item>
-                    <Item>
-                        Retour arrière sur la version du moteur du logiciel pour redonner que les ordinateurs avec
-                        Windows 7 redeviennent compatibles avec le logiciel.
                     </Item>
                     <Item>
                         Améliorations mineures de la fenêtre d'éditeur de contacts clients et fournisseurs.
