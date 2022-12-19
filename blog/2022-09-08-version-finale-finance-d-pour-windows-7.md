@@ -8,8 +8,10 @@ author_image_url: https://avatars3.githubusercontent.com/u/69808183?s=460&u=2091
 tags: [mises-à-jour]
 ---
 
-Ceci est un avis concernant la **fin de la compatibilité du logiciel Finance D - Tenue de livres simplifiée, pour 
-Windows 7**.
+### **Mise à jour au 2022-12-18 :** [Le support pour Windows 7 a été rétabli](https://docs.finance-d.com/logiciel-tenue-de-livres-simplifiee/blog/retour-de-la-compatibilite-avec-windows-7/).
+
+Ceci est un avis concernant la fin de la compatibilité du logiciel Finance D - Tenue de livres simplifiée, pour
+Windows 7.
 
 ### Si votre ordinateur n'est pas sur Windows 7, vous pouvez ignorer cet avis.
 
