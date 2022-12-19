@@ -63,7 +63,7 @@ export default function Index() {
                         automatique comme avant.
                     </Item>
                     <Item>
-                        Retour arrière sur la version du moteur du logiciel pour redonner que les ordinateurs avec
+                        Retour arrière sur la version du moteur du logiciel pour que les ordinateurs avec
                         <strong>Windows 7</strong> redeviennent compatibles avec le logiciel.
                     </Item>
                 </NewFeatures>
@@ -86,21 +86,21 @@ export default function Index() {
                     </Item>
                     <Item>
                         La sélection par défaut pour le maximum de factures trouvées dans les résultats de la fenêtre
-                        de recherche a augmenté à 100 factures max au lieu de 25.
+                        de recherche a été augmentée à 100 factures max au lieu de 25.
                     </Item>
                     <Item>
-                        Le style de la boîte de recherche dans la fenêtre de recherche de factures a été simplifiée.
+                        Le style de la boîte de recherche dans la fenêtre de recherche de factures a été simplifié.
                     </Item>
                     <Item>
-                        Ajout du raccourci clavier <kbd>Pomme</kbd>+<kbd>F</kbd> pour focuser la boîte de recherche dans
-                        la fenêtre de recherche de factures sur ordinateurs Mac.
+                        Ajout du raccourci clavier <kbd>Pomme</kbd>+<kbd>F</kbd> pour accéder rapidement à la boîte de
+                        recherche par texte dans la fenêtre de recherche de factures sur ordinateurs Mac.
                     </Item>
                 </Improvements>
 
                 <BugFixes>
                     <Item>
-                        Correction de bug dans la fenêtre de l'état des résultats quand on choisissait la période de
-                        date nulle, les date minimum et maximum n'étaient pas bien définies.
+                        Correction de bug dans la fenêtre de l'état des résultats: quand on choisissait la période de
+                        date nulle, les dates minimum et maximum n'étaient pas bien définies.
                     </Item>
                     <Item>
                         Correction du changement de date minimum et maximum dans la fenêtre de recherche de facture.
