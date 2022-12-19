@@ -27,7 +27,7 @@ export default function Index() {
                     <Item>
                         Ajout d'une icône d'étampe "Payé" sur les facture de revenus imprimables dont le solde est
                         complètement payé. Ceci est optionnel et peut donc être désactivé au besoin.
-                        <Image img={require("../../../../static/img/updates/v191/etampe-payé.png")}/>
+                        <Image img={require("../../../../static/img/updates/v191/etampe-facture-paye.png")}/>
                     </Item>
                     <Item>
                         Ajout d'une icône permettant d'accéder rapidement aux options des numéros de factures de revenus
