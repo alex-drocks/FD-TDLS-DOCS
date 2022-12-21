@@ -27,6 +27,18 @@ import v098_tooltips from '../../../static/img/updates/v098_tooltips.png';
 export default function Index() {
     return (
         <UpdatePageLayout>
+            <VersionUpdate version={"1.9.2"} date={"2022-12-20"}>
+                <BugFixes>
+                    <Item>
+                        Correction d'un bug où le Schema d'importation JSON était mal défini pour importer des
+                        fichiers .json de clients et fournisseurs.
+                    </Item>
+                    <Item>
+                        Correction de la fonction qui dirige vers la plus récente publication du blog Finance&nbsp;D.
+                    </Item>
+                </BugFixes>
+            </VersionUpdate>
+            
             <VersionUpdate version={"1.9.1"} date={"2022-12-18"}>
 
                 <NewFeatures>
@@ -41,7 +53,8 @@ export default function Index() {
                     </Item>
                     <Item>
                         Ajout d'une icône permettant d'accéder rapidement aux options des numéros de factures de revenus
-                        lorsque la valeur du numéro de facture n'est pas dans la séquence habituelle et que le message d'avertissement apparaît.
+                        lorsque la valeur du numéro de facture n'est pas dans la séquence habituelle et que le message
+                        d'avertissement apparaît.
                         <Image img={require("../../../static/img/updates/v191/options-numero-facture.png")}/>
                     </Item>
                     <Item>
