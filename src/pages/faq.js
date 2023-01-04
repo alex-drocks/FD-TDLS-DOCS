@@ -475,7 +475,7 @@ function QuestionRow({children}) {
 
 function Question({children, id}) {
   return (
-    <div className={clsx('col col--6', styles.feature)}
+    <div className={clsx('col col--6 question', styles.feature)}
          id={id}>
       {children}
     </div>

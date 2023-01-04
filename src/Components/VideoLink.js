@@ -2,7 +2,7 @@ import React from "react";
 
 export default function VideoLink({url, title, duration, style, children}) {
   return (<>
-    <div style={
+    <div className="content" style={
       Object.assign({},
         {border: "1px dashed black", padding: "1em", boxShadow: "8px 8px 1px rgba(0,0,0,.75)"},
         style
@@ -25,14 +25,15 @@ export default function VideoLink({url, title, duration, style, children}) {
         Voir la vidéo &rarr;
       </a>
 
-      <p style={{lineHeight: "100%", marginBottom: "0.25em", marginTop: "0.7em"}}>
-        <i>{duration} {title}</i>
+      <p className="video-details" style={{lineHeight: "100%", marginBottom: "0.25em", marginTop: "0.7em"}}>
+        <i><span className="duration">{duration}</span> <span className="youtube-title">{title}</span></i>
       </p>
 
       {
         children ? (<>
           <br/>
-          <p style={{lineHeight: "100%", marginBottom: "0.25em", color: "#505050", fontSize: "90%"}}>
+          <p className="description"
+             style={{lineHeight: "100%", marginBottom: "0.25em", color: "#505050", fontSize: "90%"}}>
             {children}
           </p>
         </>) : null

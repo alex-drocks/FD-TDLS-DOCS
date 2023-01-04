@@ -4,7 +4,7 @@ import styles from "../pages/pages.module.css";
 
 function VersionUpdate({version, date, children}) {
   return (
-    <section id={`version-${version}`} className={clsx(styles.versionUpdate, styles.features)}>
+    <section id={`version-${version}`} className={clsx("version-update-container", styles.versionUpdate, styles.features)}>
       <div className="container">
         <div className="row">
           <div className={clsx('col col--12')}>

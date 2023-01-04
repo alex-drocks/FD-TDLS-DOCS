@@ -45,6 +45,7 @@ export default function Videos() {
                             url="https://youtu.be/cZJU94ZSoBQ"
                             duration="13:56"
                             shortTitle="Introduction au logiciel Finance D - Tenue de livres simplifiée"
+                            fullTitle="Introduction au logiciel Finance D - Tenue de livres simplifiée"
                             description="Prise en main rapide. Créer un nouveau dossier de tenue de livres et une
                             facture de revenus. Ensuite, enregistrer la facture au format .pdf et encaisser le paiement
                             pour régler le solde dû."
@@ -82,9 +83,9 @@ export default function Videos() {
 
 function VideoCard({url, shortTitle, fullTitle, description, duration}) {
     return (
-        <div>
+        <div className="video-container">
             <br/>
-            <h3>{shortTitle} :</h3>
+            <h3 className="title">{shortTitle} :</h3>
             <VideoLink
                 url={url}
                 title={fullTitle}
