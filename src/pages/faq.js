@@ -123,13 +123,15 @@ export default function Faq() {
             <h3>Est-ce que le logiciel collecte mes données personnelles&nbsp;?</h3>
             <p>
               <strong>Non</strong>.
-              Vos données sont enregistrées localement dans votre ordinateur.
-              Elles ne vont pas sur internet.
+              Vos dossiers de tenue de livres sont enregistrés localement dans votre ordinateur.
+              Ils ne vont jamais sur Internet.
               De plus, tout ce qui est sauvegardé dans votre ordinateur est encrypté selon les standards AES-256.
               Ce qui a pour résultat que sans le mot de passe de votre dossier <NoWrap>Finance D</NoWrap>,
               et sans un accès physique à votre ordinateur, personne ne peut voir les données contenues dans votre
-              installation du logiciel. Notez que Finance&nbsp;D connait l'adresse courriel que vous avez utilisée
-              pour créer un nouveau dossier dans le logiciel et nous respectons votre vie privée.
+              installation du logiciel. Cependant, notez que Finance&nbsp;D collecte des données rudimentaires à propos
+              de votre utilisation du logiciel dans le respect total de votre vie privée. Pour en savoir plus à propos
+              de ce sujet, consultez le lien suivant au point #2&nbsp;:&nbsp;<a
+              href="https://finance-d.com/licence/">https://finance-d.com/licence/</a>.
             </p>
           </Question>
           <Question id={8}>
