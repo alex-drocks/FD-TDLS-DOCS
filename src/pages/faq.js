@@ -32,7 +32,7 @@ export default function Faq() {
           <Question id={1}>
             <h3>Le logiciel Finance&nbsp;D est-il vraiment gratuit&nbsp;?</h3>
             <p>
-              <strong>Oui</strong>. Le <LogicielFD/> est
+              <strong>Oui</strong>. Le <LogicielFD/> version 1, est
               gratuit à 100&nbsp;% et pour toujours. Il n'y a aucun frais caché ni
               aucune limite. Dans Finance&nbsp;D, tout est vraiment gratuit et
               sans publicité. Vous pouvez donc considérer Finance&nbsp;D
@@ -43,17 +43,20 @@ export default function Faq() {
             <h3>Pourquoi le logiciel Finance&nbsp;D est-il gratuit&nbsp;?</h3>
             <p>
               Le <LogicielFD/> est gratuit, car il a été conçu pour rendre service aux Québécois et Québécoises.
-              Le développement du logiciel est possible grâce à une passion pour la programmation
+              Plus spécifiquement, l'offre gratuite du logiciel est motivée par une passion pour la programmation,
               unie avec la volonté d'aider les travailleurs autonomes à avoir accès à un logiciel comptable simple et
               efficace pour leur comptabilité quotidienne.
+              <br/><br/>
               De plus, le logiciel sert de preuve des capacités de l'entreprise <NoWrap>Finance D</NoWrap> à offrir
-              des solutions pratiques à des défis spécifiques de la comptabilité. Ce produit est donc un pilier pour
-              la réputation de <NoWrap>Finance D</NoWrap>.<br/>
+              des solutions pratiques à des défis de la comptabilité. Ce produit est donc un pilier pour
+              la réputation de <NoWrap>Finance D</NoWrap>.
+              <br/><br/>
               En d'autres mots, vous pouvez voir ce logiciel comme le fruit d'une passion
-              pour la programmation, le désir d'aider et une preuve de fiabilité de l'entreprise.<br/>
+              pour la programmation, le désir d'aider et une preuve de fiabilité de l'entreprise.
               Certes, il est possible qu'un autre produit créé par l'entreprise <NoWrap>Finance D</NoWrap> soit
-              payant un jour, mais le logiciel de tenue de livres simplifiée restera gratuit et maintenu avec la
-              meilleure qualité.<br/>
+              payant un jour, mais le logiciel de tenue de livres simplifiée version 1,
+              restera gratuit et maintenu avec la meilleure qualité.
+              <br/><br/>
               Enfin, si vous voulez contribuer financièrement pour nous aider en retour, ou simplement pour dire merci,
               il est possible de faire un don via notre page web à l'adresse suivante&nbsp;:&nbsp;
               <a href="https://finance-d.com/soutenir/">https://finance-d.com/soutenir/</a>.
@@ -129,7 +132,7 @@ export default function Faq() {
               pour créer un nouveau dossier dans le logiciel et nous respectons votre vie privée.
             </p>
           </Question>
-          <Question id="8">
+          <Question id={8}>
             <h3>À qui est-ce que le logiciel Finance&nbsp;D convient le mieux&nbsp;?</h3>
             <p>
               Cela dépend de vos activités. Toutefois,
@@ -147,7 +150,7 @@ export default function Faq() {
           </Question>
         </QuestionRow>
         <QuestionRow>
-          <Question id="9">
+          <Question id={9}>
             <h3>Est-ce que le logiciel peut produire mes États Financiers officiels comme un Bilan par
               exemple&nbsp;?</h3>
             <p>
@@ -162,7 +165,7 @@ export default function Faq() {
               un comptable professionnel quand il s'agit des États Financiers.
             </p>
           </Question>
-          <Question id="10">
+          <Question id={10}>
             <h3>Pourquoi est-ce que je dois créer un dossier pour utiliser le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Il est nécessaire de créer un dossier pour utiliser le <LogicielFD/>,
@@ -175,7 +178,7 @@ export default function Faq() {
           </Question>
         </QuestionRow>
         <QuestionRow>
-          <Question id="11">
+          <Question id={11}>
             <h3>Comment obtenir les mises à jour du logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Les mises à jour du <LogicielFD/> se font automatiquement
@@ -199,7 +202,7 @@ export default function Faq() {
               <Link to="https://finance-d.com/telecharger/">https://finance-d.com/telecharger</Link>.
             </p>
           </Question>
-          <Question id="12">
+          <Question id={12}>
             <h3>Est-ce que vous offrez du soutien technique pour le logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Oui. Mais, limité.
@@ -215,7 +218,7 @@ export default function Faq() {
           </Question>
         </QuestionRow>
         <QuestionRow>
-          <Question id="13">
+          <Question id={13}>
             <h3>Qui est responsable du développement du logiciel Finance&nbsp;D&nbsp;?</h3>
             <p>
               Le <LogicielFD/>, est développé par{" "}
@@ -228,14 +231,14 @@ export default function Faq() {
               comptable efficace et facile à utiliser dans le contexte du Québec.
             </p>
           </Question>
-          <Question id="14">
+          <Question id={14}>
             <h3>Est-ce que le logiciel fonctionne sur une tablette ou un cellulaire&nbsp;?</h3>
             <p>
               Malheureusement, <strong>non</strong>. C'est un logiciel pour ordinateurs Windows ou Mac.
-              Les téléphones intelligents et tablettes n'ont
+              Or, les téléphones intelligents et tablettes, n'ont
               pas le même système d'opération qu'un ordinateur et <NoWrap>Finance D</NoWrap> n'est pas conçu pour ces
               appareils.
-              À notre avis, faire de la comptabilité sur un écran réduit est moins productif.
+              De plus, à notre avis, faire de la comptabilité sur un écran réduit est moins productif qu'à l'ordinateur.
             </p>
           </Question>
         </QuestionRow>
@@ -323,87 +326,128 @@ export default function Faq() {
               simplicité, avec une emphase sur le contexte des travailleurs autonomes.
             </p>
           </Question>
-          <QuestionRow>
-            <Question id={21}>
-              <h3>Comment peut-on collaborer avec un comptable en utilisant le logiciel Finance&nbsp;D&nbsp;?</h3>
-              <p>
-                Vous pourriez, par exemple, contactez votre comptable et lui dire que vous avez déjà
-                vos chiffres d’affaires de comptabilisés (les factures sont déjà comptabilisées et vous avez des
-                rapports détaillés disponibles).
-                Ensuite, il vous dira ce qu’il a besoin si jamais il veut des informations plus spécifiques.
-                Les outils que vous avez en votre possession sont assez nombreux avec Finance&nbsp;D&nbsp;:
-                Vous pourriez donner à votre comptable un accès direct à votre dossier Finance&nbsp;D s’il est ouvert à
-                cette option.
-                Autrement, vous pouvez lui remettre votre État des résultats, votre Sommaire de taxes pour déclaration
-                de TPS/TVQ, et aussi imprimer une liste de transactions détaillées
-                à partir de la fenêtre de recherche (Mes factures). Le scénario idéal
-                est que votre comptable installe Finance&nbsp;D sur son ordinateur et que vous échangiez des copies de
-                sauvegardes Finance&nbsp;D par courriel.
-              </p>
-            </Question>
-            <Question id={22}>
-              <h3>Est-ce que le logiciel Finance&nbsp;D est de bonne qualité même s'il est gratuit&nbsp;?</h3>
-              À notre humble avis, le <LogicielFD/> est d'une qualité exceptionnelle et pourrait très bien être
-              commercialisé. D'ailleurs, il arrive souvent qu'on nous demande pourquoi nous ne le vendons pas...
-              Donc, ce que nous faisons, soyez certain que nous le faisons comme si le logiciel était payant.
-              La qualité, l'excellence, la simplicité et l'efficacité sont les aspects fondamentaux qui dirigent
-              le projet. Si vous n'êtes pas satisfaits, nous ne sommes pas satisfaits non plus, car ce logiciel est
-              comme notre bébé. En d'autres mots, le <LogicielFD/> est un projet de la plus haute importance
-              pour
-              l'entreprise Finance&nbsp;D. C'est aussi un logiciel qui défini notre marque en tant qu'entreprise. Nous
-              avons donc tout intérêt à fournir un produit de la plus haute qualité qui soit capable d'impressionner
-              les utilisateurs. Ainsi, vous pourrez sans doute remarquer que le logiciel Finance&nbsp;D offre certaines
-              fonctions qui sont meilleures que dans des logiciels payants. Bien sûr, notre logiciel n'est pas parfait
-              et
-              nous ne voulons pas discréditer les autres logiciels. Mais, sachez que la gratuité est une bonne nouvelle
-              et non un signe de faible qualité.
-            </Question>
-          </QuestionRow>
-          <QuestionRow>
-            <Question id={23}>
-              <h3>Quel est le concept du logiciel Finance&nbsp;D en résumé&nbsp;?</h3>
-              <p>
-                Le <LogicielFD/>, est un outil efficace pour gérer votre facturation client, vos factures de
-                dépenses, vos déclarations de TPS/TVQ et vos résultats financiers au quotidien. C'est un logiciel
-                qui a été réfléchi pour les travailleurs autonomes du Québec qui doivent facturer leurs
-                clients, comptabiliser leurs dépenses, payer leurs taxes et maximiser leurs profits. Le but est de
-                simplifier votre comptabilité en la rendant appréciable, efficace et pratique dans la vraie vie, sans
-                vous ruiner.
-              </p>
-            </Question>
-            <Question id={24}>
-              <h3>Peut-on proposer des demandes d'améliorations pour le logiciel Finance&nbsp;D&nbsp;?</h3>
-              <p><strong>Oui.</strong> Bien sûr&nbsp;!
-                À chaque jour, nous lisons attentivement les courriels et prenons le temps de répondre adéquatement à
-                chacun. Donc, le meilleur moyen de communiquer une requête d'amélioration, est d'écrire un courriel
-                qui explique votre idée en détails.{" "}
-                <Link to="https://finance-d.com/contact/">Envoyer une demande d'amélioration</Link>.
-              </p>
-            </Question>
-          </QuestionRow>
-          <QuestionRow>
-            <Question id={25}>
-              <h3>Comment peut-on obtenir le logiciel Finance&nbsp;D&nbsp;?</h3>
-              <p>
-                Pour obtenir le <LogicielFD/>, il suffit d'aller sur notre page de téléchargement
-                et de l'installer sur votre ordinateur (Windows ou Mac). Ensuite, votre entreprise pourra
-                facturer des clients, enregistrer des dépenses, etc. C'est aussi simple que cela.{" "}
-                <Link to="https://finance-d.com/telecharger/">Obtenir le logiciel Finance&nbsp;D</Link>
-              </p>
-            </Question>
-            <Question id={26}>
-              <h3>Le logiciel Finance&nbsp;D va-t-il cesser de fonctionner puisqu'il est gratuit&nbsp;?</h3>
-              <p>
-                Non. Une fois téléchargé dans votre ordinateur, le <LogicielFD/>, n'a pas de date d'expiration.
-                En effet, puisqu'il ne s'agit pas d'une application web qui dépendrait d'internet, le logiciel va
-                continuer de fonctionner même s'il n'était plus disponible pour téléchargement gratuit.
-                Bien sûr, il n'y a aucun plan pour que le logiciel ne soit plus offert gratuitement, mais sachez que
-                même dans l'éventualité où cela arriverait par un malheur quelconque, le logiciel continuera de
-                fonctionner sur votre ordinateur peu importe ce qui arrive. En d'autres mots, vous n'avez pas à vous
-                inquiéter à propos de la longévité d'utilisation du logiciel même s'il est gratuit.
-              </p>
-            </Question>
-          </QuestionRow>
+        </QuestionRow>
+        <QuestionRow>
+          <Question id={21}>
+            <h3>Comment peut-on collaborer avec un comptable en utilisant le logiciel Finance&nbsp;D&nbsp;?</h3>
+            <p>
+              Vous pourriez, par exemple, contactez votre comptable et lui dire que vous avez déjà
+              vos chiffres d’affaires de comptabilisés (les factures sont déjà comptabilisées et vous avez des
+              rapports détaillés disponibles).
+              Ensuite, il vous dira ce qu’il a besoin si jamais il veut des informations plus spécifiques.
+              Les outils que vous avez en votre possession sont assez nombreux avec Finance&nbsp;D&nbsp;:
+              Vous pourriez donner à votre comptable un accès direct à votre dossier Finance&nbsp;D s’il est ouvert à
+              cette option.
+              Autrement, vous pouvez lui remettre votre État des résultats, votre Sommaire de taxes pour déclaration
+              de TPS/TVQ, et aussi imprimer une liste de transactions détaillées
+              à partir de la fenêtre de recherche (Mes factures). Le scénario idéal
+              est que votre comptable installe Finance&nbsp;D sur son ordinateur et que vous échangiez des copies de
+              sauvegardes Finance&nbsp;D par courriel.
+            </p>
+          </Question>
+          <Question id={22}>
+            <h3>Est-ce que le logiciel Finance&nbsp;D est de bonne qualité même s'il est gratuit&nbsp;?</h3>
+            À notre humble avis, le <LogicielFD/> est d'une qualité exceptionnelle et pourrait très bien être
+            commercialisé. D'ailleurs, il arrive souvent qu'on nous demande pourquoi nous ne le vendons pas...
+            Donc, ce que nous faisons, soyez certain que nous le faisons comme si le logiciel était payant.
+            La qualité, l'excellence, la simplicité et l'efficacité sont les aspects fondamentaux qui dirigent
+            le projet. Si vous n'êtes pas satisfaits, nous ne sommes pas satisfaits non plus, car ce logiciel est
+            comme notre bébé. En d'autres mots, le <LogicielFD/> est un projet de la plus haute importance
+            pour
+            l'entreprise Finance&nbsp;D. C'est aussi un logiciel qui défini notre marque en tant qu'entreprise. Nous
+            avons donc tout intérêt à fournir un produit de la plus haute qualité qui soit capable d'impressionner
+            les utilisateurs. Ainsi, vous pourrez sans doute remarquer que le logiciel Finance&nbsp;D offre certaines
+            fonctions qui sont meilleures que dans des logiciels payants. Bien sûr, notre logiciel n'est pas parfait
+            et
+            nous ne voulons pas discréditer les autres logiciels. Mais, sachez que la gratuité est une bonne nouvelle
+            et non un signe de faible qualité.
+          </Question>
+        </QuestionRow>
+        <QuestionRow>
+          <Question id={23}>
+            <h3>Quel est le concept du logiciel Finance&nbsp;D en résumé&nbsp;?</h3>
+            <p>
+              Le <LogicielFD/>, est un outil efficace pour gérer votre facturation client, vos factures de
+              dépenses, vos déclarations de TPS/TVQ et vos résultats financiers au quotidien. C'est un logiciel
+              qui a été réfléchi pour les travailleurs autonomes du Québec qui doivent facturer leurs
+              clients, comptabiliser leurs dépenses, payer leurs taxes et maximiser leurs profits. Le but est de
+              simplifier votre comptabilité en la rendant appréciable, efficace et pratique dans la vraie vie, sans
+              vous ruiner.
+            </p>
+          </Question>
+          <Question id={24}>
+            <h3>Peut-on proposer des demandes d'améliorations pour le logiciel Finance&nbsp;D&nbsp;?</h3>
+            <p><strong>Oui.</strong> Bien sûr&nbsp;!
+              À chaque jour, nous lisons attentivement les courriels et prenons le temps de répondre adéquatement à
+              chacun. Donc, le meilleur moyen de communiquer une requête d'amélioration, est d'écrire un courriel
+              qui explique votre idée en détails.{" "}
+              <Link to="https://finance-d.com/contact/">Envoyer une demande d'amélioration</Link>.
+            </p>
+          </Question>
+        </QuestionRow>
+        <QuestionRow>
+          <Question id={25}>
+            <h3>Comment peut-on obtenir le logiciel Finance&nbsp;D&nbsp;?</h3>
+            <p>
+              Pour obtenir le <LogicielFD/>, il suffit d'aller sur notre page de téléchargement
+              et de l'installer sur votre ordinateur (Windows ou Mac). Ensuite, votre entreprise pourra
+              facturer des clients, enregistrer des dépenses, etc. C'est aussi simple que cela.{" "}
+              <Link to="https://finance-d.com/telecharger/">Obtenir le logiciel Finance&nbsp;D</Link>
+            </p>
+          </Question>
+          <Question id={26}>
+            <h3>Le logiciel Finance&nbsp;D va-t-il cesser de fonctionner puisqu'il est gratuit&nbsp;?</h3>
+            <p>
+              Non. Une fois téléchargé dans votre ordinateur, le <LogicielFD/>, n'a pas de date d'expiration.
+              En effet, puisqu'il ne s'agit pas d'une application web qui dépendrait d'internet, le logiciel va
+              continuer de fonctionner même s'il n'était plus disponible pour téléchargement gratuit.
+              Bien sûr, il n'y a aucun plan pour que le logiciel ne soit plus offert gratuitement, mais sachez que
+              même dans l'éventualité où cela arriverait par un malheur quelconque, le logiciel continuera de
+              fonctionner sur votre ordinateur peu importe ce qui arrive. En d'autres mots, vous n'avez pas à vous
+              inquiéter à propos de la longévité d'utilisation du logiciel même s'il est gratuit.
+            </p>
+          </Question>
+        </QuestionRow>
+        <QuestionRow>
+          <Question id={27}>
+            <h3>Qui est responsable de l'enregistrement de mes données&nbsp;?</h3>
+            <p>
+              <strong>L'utilisateur est responsable</strong> de ses enregistrements de fichiers.&nbsp;
+              En effet, le logiciel Finance&nbsp;D enregistre vos données sur votre ordinateur personnel;
+              Il n'y a donc aucune donnée stockée sur nos serveurs Web.
+              Ceci augmente la sécurité et permet de ne pas vous charger pour des frais de stockage cloud.
+              Or, cela implique également que vous avez l'entière responsabilité de la conservation de vos fichiers
+              sur votre ordinateur.
+              Finance&nbsp;D, ne peut pas être tenu responsable pour le stockage de vos dossiers. Par exemple, si vous
+              changez d'ordinateur, c'est votre responsabilité de faire une copie de sauvegarde et de la transférer à
+              votre nouvel ordinateur. Il est impossible pour nous de vous fournir une copie de sauvegarde externe,
+              puisque nous n'en conservons aucune. Nous respectons votre vie privée en ne conservant pas vos données,
+              et cela vient avec le fait que la responsabilité vous revient d'en assurer une bonne gestion.
+              Pour en savoir plus, consultez le lien suivant&nbsp;:&nbsp;
+              <a href="https://finance-d.com/licence/">https://finance-d.com/licence/</a>.
+            </p>
+          </Question>
+          <Question id={28}>
+            <h3>Est-ce que le logiciel peut produire des devis / soumissions ?</h3>
+            <p>
+              <strong>Non.</strong> Le <LogicielFD/> version 1 (gratuite), ne peut pas produire de devis et/ou
+              soumissions. Il peut produire des factures de revenus et de dépenses.
+              Cependant, une version 2, basée sur le Web (cloud) est prévue pour plus tard et celle-ci inclurait
+              le mode de transaction pour créer des devis/soumissions. Notez que cette nouvelle version n'a pas encore
+              de date de publication fixée.
+            </p>
+          </Question>
+        </QuestionRow>
+        <QuestionRow>
+          <Question id={29}>
+            <h3>Est-ce que le logiciel offre la fonctionnalité de rapprochement bancaire&nbsp;?</h3>
+            <p>
+              <strong>Non.</strong> Le <LogicielFD/> version 1 (gratuite), ne peut pas produire de conciliation
+              bancaire. Cependant, une version 2, basée sur le Web (cloud) est prévue pour plus tard et celle-ci
+              pourrait inclure la fonctionnalité servant à faire un rapprochement bancaire. Notez que cette nouvelle
+              version n'a pas encore de date de publication fixée.
+            </p>
+          </Question>
         </QuestionRow>
       </main>
     </Layout>
