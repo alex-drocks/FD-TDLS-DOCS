@@ -55,7 +55,7 @@ export default function Faq() {
               pour la programmation, le désir d'aider et une preuve de fiabilité de l'entreprise.
               Certes, il est possible qu'un autre produit créé par l'entreprise <NoWrap>Finance D</NoWrap> soit
               payant un jour, mais le logiciel de tenue de livres simplifiée version 1,
-              restera gratuit et maintenu avec la meilleure qualité.
+              restera gratuit.
               <br/><br/>
               Enfin, si vous voulez contribuer financièrement pour nous aider en retour, ou simplement pour dire merci,
               il est possible de faire un don via notre page web à l'adresse suivante&nbsp;:&nbsp;
