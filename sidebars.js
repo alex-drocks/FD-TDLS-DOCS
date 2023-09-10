@@ -51,6 +51,7 @@ module.exports = {
       "gestion-dossiers/import-json",
       "gestion-dossiers/export-json",
       "gestion-dossiers/archiver-un-dossier",
+      "gestion-dossiers/trouver-backups",
     ],
     "Options, préférences et paramètres": [
       "options/introduction-aux-options",
